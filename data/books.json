@@ -1,0 +1,462 @@
+[
+  {
+    "id": "sapiens-a-brief-history-of-humankind",
+    "title": "Sapiens: A Brief History of Humankind",
+    "creator": "Yuval Noah Harari",
+    "year": 2011,
+    "isbn": "9780062316097"
+  },
+  {
+    "id": "prisoners-of-geography-ten-maps-that-tell-you-everything-you-need-to-know-about-global-politics",
+    "title": "Prisoners of Geography: Ten Maps That Tell You Everything You Need to Know About Global Politics",
+    "creator": "Tim Marshall",
+    "year": 2015,
+    "isbn": "9781783962433",
+    "collectionId": "books-geography",
+    "collectionTitle": "Geography",
+    "position": 1
+  },
+  {
+    "id": "what-if-serious-scientific-answers-to-absurd-hypothetical-questions",
+    "title": "What If?: Serious Scientific Answers to Absurd Hypothetical Questions",
+    "creator": "Randall Munroe",
+    "year": 2014,
+    "isbn": "0544272994",
+    "collectionId": "books-what-if",
+    "collectionTitle": "What If?",
+    "position": 1
+  },
+  {
+    "id": "brief-answers-to-the-big-questions",
+    "title": "Brief Answers to the Big Questions",
+    "creator": "Stephen W. Hawking",
+    "year": 2018,
+    "isbn": "9781984819192"
+  },
+  {
+    "id": "questa-e-l-america-storie-per-capire-il-presente-degli-stati-uniti-e-il-nostro-futuro",
+    "title": "Questa è l'America: Storie per capire il presente degli Stati Uniti e il nostro futuro",
+    "creator": "Francesco Costa",
+    "year": 2020,
+    "isbn": "8804722460"
+  },
+  {
+    "id": "shoe-dog-a-memoir-by-the-creator-of-nike",
+    "title": "Shoe Dog: A Memoir by the Creator of Nike",
+    "creator": "Phil Knight",
+    "year": 2016,
+    "isbn": "1501135910"
+  },
+  {
+    "id": "reality-is-not-what-it-seems",
+    "title": "Reality is Not What it Seems",
+    "creator": "Carlo Rovelli",
+    "year": 2014,
+    "isbn": "0241257964"
+  },
+  {
+    "id": "exhalation",
+    "title": "Exhalation",
+    "creator": "Ted Chiang",
+    "year": 2019,
+    "isbn": "9781101972083"
+  },
+  {
+    "id": "permanent-record",
+    "title": "Permanent Record",
+    "creator": "Edward Snowden",
+    "year": 2019,
+    "isbn": "9781250772909"
+  },
+  {
+    "id": "the-biggest-bluff-how-i-learned-to-pay-attention-master-myself-and-win",
+    "title": "The Biggest Bluff: How I Learned to Pay Attention, Master Myself, and Win",
+    "creator": "Maria Konnikova",
+    "year": 2020,
+    "isbn": "052552262X"
+  },
+  {
+    "id": "dark-matter",
+    "title": "Dark Matter",
+    "creator": "Blake Crouch",
+    "year": 2016,
+    "isbn": "1101904224"
+  },
+  {
+    "id": "range-why-generalists-triumph-in-a-specialized-world",
+    "title": "Range: Why Generalists Triumph in a Specialized World",
+    "creator": "David Epstein",
+    "year": 2019,
+    "isbn": "0735214484"
+  },
+  {
+    "id": "the-complete-maus",
+    "title": "The Complete Maus",
+    "creator": "Art Spiegelman",
+    "year": 1986,
+    "isbn": "0141014083"
+  },
+  {
+    "id": "good-economics-for-hard-times-better-answers-to-our-biggest-problems",
+    "title": "Good Economics for Hard Times: Better Answers to Our Biggest Problems",
+    "creator": "Abhijit V. Banerjee & Esther Duflo",
+    "year": 2019,
+    "isbn": "9781541788947"
+  },
+  {
+    "id": "thinking-fast-and-slow",
+    "title": "Thinking, Fast and Slow",
+    "creator": "Daniel Kahneman",
+    "year": 2011,
+    "isbn": "0374275637"
+  },
+  {
+    "id": "the-righteous-mind-why-good-people-are-divided-by-politics-and-religion",
+    "title": "The Righteous Mind: Why Good People Are Divided by Politics and Religion",
+    "creator": "Jonathan Haidt",
+    "year": 2012,
+    "isbn": "9780307455772"
+  },
+  {
+    "id": "flowers-for-algernon",
+    "title": "Flowers for Algernon",
+    "creator": "Daniel Keyes",
+    "year": 1966,
+    "isbn": "9781474605731"
+  },
+  {
+    "id": "humble-pi-a-comedy-of-maths-errors",
+    "title": "Humble Pi: A Comedy of Maths Errors",
+    "creator": "Matt Parker",
+    "year": 2019,
+    "isbn": "0241360196"
+  },
+  {
+    "id": "open",
+    "title": "Open",
+    "creator": "Andre Agassi",
+    "year": 2009,
+    "isbn": "9780307388407"
+  },
+  {
+    "id": "how-to-avoid-a-climate-disaster-the-solutions-we-have-and-the-breakthroughs-we-need",
+    "title": "How to Avoid a Climate Disaster: The Solutions We Have and the Breakthroughs We Need",
+    "creator": "Bill Gates",
+    "year": 2021,
+    "isbn": "0241448301"
+  },
+  {
+    "id": "the-great-mental-models-general-thinking-concepts",
+    "title": "The Great Mental Models: General Thinking Concepts",
+    "creator": "Shane Parrish & Rhiannon Beaubien",
+    "year": 2018,
+    "isbn": "9781529945737"
+  },
+  {
+    "id": "flash-crash-a-trading-savant-a-global-manhunt-and-the-most-mysterious-market-crash-in-history",
+    "title": "Flash Crash: A Trading Savant, a Global Manhunt, and the Most Mysterious Market Crash in History",
+    "creator": "Liam Vaughan",
+    "year": 2020,
+    "isbn": "0385543654"
+  },
+  {
+    "id": "the-three-body-problem-remembrance-of-earths-past-1",
+    "title": "The Three-Body Problem (Remembrance of Earth’s Past, #1)",
+    "creator": "Cixin Liu",
+    "year": 2006,
+    "isbn": "9780765382030",
+    "collectionId": "books-the-three-body-problem",
+    "collectionTitle": "The Three-Body Problem",
+    "position": 1
+  },
+  {
+    "id": "the-dark-forest-remembrance-of-earths-past-2",
+    "title": "The Dark Forest (Remembrance of Earth’s Past, #2)",
+    "creator": "Cixin Liu",
+    "year": 2008,
+    "isbn": "9780765377081",
+    "collectionId": "books-the-three-body-problem",
+    "position": 2
+  },
+  {
+    "id": "death-s-end-remembrance-of-earths-past-3",
+    "title": "Death's End (Remembrance of Earth’s Past, #3)",
+    "creator": "Cixin Liu",
+    "year": 2010,
+    "isbn": "0765377101",
+    "collectionId": "books-the-three-body-problem",
+    "position": 3
+  },
+  {
+    "id": "a-monster-calls",
+    "title": "A Monster Calls",
+    "creator": "Patrick Ness",
+    "year": 2011,
+    "isbn": "1406361801"
+  },
+  {
+    "id": "the-power-of-geography-ten-maps-that-reveal-the-future-of-our-world",
+    "title": "The Power of Geography: Ten Maps That Reveal the Future of Our World",
+    "creator": "Tim Marshall",
+    "year": 2021,
+    "isbn": "1783965371",
+    "collectionId": "books-geography",
+    "position": 2
+  },
+  {
+    "id": "beyond-order-12-more-rules-for-life",
+    "title": "Beyond Order: 12 More Rules For Life",
+    "creator": "Jordan B. Peterson",
+    "year": 2021,
+    "isbn": "0593084640"
+  },
+  {
+    "id": "the-song-of-achilles",
+    "title": "The Song of Achilles",
+    "creator": "Madeline Miller",
+    "year": 2011,
+    "isbn": "9781408842126"
+  },
+  {
+    "id": "how-to-absurd-scientific-advice-for-common-real-world-problems",
+    "title": "How To: Absurd Scientific Advice for Common Real-World Problems",
+    "creator": "Randall Munroe",
+    "year": 2019,
+    "isbn": "0525537090"
+  },
+  {
+    "id": "the-code-breaker-jennifer-doudna-gene-editing-and-the-future-of-the-human-race",
+    "title": "The Code Breaker: Jennifer Doudna, Gene Editing, and the Future of the Human Race",
+    "creator": "Walter Isaacson",
+    "year": 2021,
+    "isbn": "1982115858"
+  },
+  {
+    "id": "empire-of-pain-the-secret-history-of-the-sackler-dynasty",
+    "title": "Empire of Pain: The Secret History of the Sackler Dynasty",
+    "creator": "Patrick Radden Keefe",
+    "year": 2021,
+    "isbn": "0385545681"
+  },
+  {
+    "id": "circe",
+    "title": "Circe",
+    "creator": "Madeline Miller",
+    "year": 2018,
+    "isbn": "9780316556323"
+  },
+  {
+    "id": "piranesi",
+    "title": "Piranesi",
+    "creator": "Susanna Clarke",
+    "year": 2020,
+    "isbn": "9781526622433"
+  },
+  {
+    "id": "l-avvocato-dell-atomo-in-difesa-dell-energia-nucleare",
+    "title": "L'avvocato dell'atomo. In difesa dell'energia nucleare",
+    "creator": "Luca Romano",
+    "year": 2020,
+    "isbn": "9791259672148"
+  },
+  {
+    "id": "m-il-figlio-del-secolo",
+    "title": "M. Il figlio del secolo",
+    "creator": "Antonio Scurati",
+    "year": 2018,
+    "isbn": "8845298132",
+    "collectionId": "books-m",
+    "collectionTitle": "M.",
+    "position": 1
+  },
+  {
+    "id": "m-l-uomo-della-provvidenza",
+    "title": "M. L'uomo della provvidenza",
+    "creator": "Antonio Scurati",
+    "year": 2020,
+    "isbn": "8830102652",
+    "collectionId": "books-m",
+    "position": 2
+  },
+  {
+    "id": "steve-jobs",
+    "title": "Steve Jobs",
+    "creator": "Walter Isaacson",
+    "year": 2011,
+    "isbn": "1451648537"
+  },
+  {
+    "id": "m-gli-ultimi-giorni-dell-europa",
+    "title": "M. Gli ultimi giorni dell'Europa",
+    "creator": "Antonio Scurati",
+    "year": 2022,
+    "isbn": "9788830104969",
+    "collectionId": "books-m",
+    "position": 3
+  },
+  {
+    "id": "novecento-un-monologo",
+    "title": "Novecento. Un monologo",
+    "creator": "Alessandro Baricco",
+    "year": 1994,
+    "isbn": "8807813025"
+  },
+  {
+    "id": "what-if-2-additional-serious-scientific-answers-to-absurd-hypothetical-questions-what-if-2",
+    "title": "What If? 2: Additional Serious Scientific Answers to Absurd Hypothetical Questions (What If?, #2)",
+    "creator": "Randall Munroe",
+    "year": 2022,
+    "isbn": "0525537112",
+    "collectionId": "books-what-if",
+    "position": 2
+  },
+  {
+    "id": "fahrenheit-451",
+    "title": "Fahrenheit 451",
+    "creator": "Ray Bradbury",
+    "year": 1953,
+    "isbn": "9781451673319"
+  },
+  {
+    "id": "the-world-for-sale-money-power-and-the-traders-who-barter-the-earths-resources",
+    "title": "The World for Sale: Money, Power and the Traders Who Barter the Earth’s Resources",
+    "creator": "Javier Blas",
+    "year": 2021,
+    "isbn": "1847942660"
+  },
+  {
+    "id": "existential-physics-a-scientist-s-guide-to-life-s-biggest-questions",
+    "title": "Existential Physics: A Scientist's Guide to Life's Biggest Questions",
+    "creator": "Sabine Hossenfelder",
+    "year": 2022,
+    "isbn": "9781838950385"
+  },
+  {
+    "id": "how-the-world-really-works-a-scientist-s-guide-to-our-past-present-and-future",
+    "title": "How the World Really Works: A Scientist's Guide to Our Past, Present and Future",
+    "creator": "Vaclav Smil",
+    "year": 2022,
+    "isbn": "0241454409"
+  },
+  {
+    "id": "what-s-our-problem-a-self-help-book-for-societies",
+    "title": "What's Our Problem?: A Self-Help Book for Societies",
+    "creator": "Tim Urban",
+    "year": 2023,
+    "isbn": "9798987722602"
+  },
+  {
+    "id": "sergio-marchionne",
+    "title": "Sergio Marchionne",
+    "creator": "Tommaso Ebhardt",
+    "year": 2019,
+    "isbn": "9788855440639"
+  },
+  {
+    "id": "chip-war-the-fight-for-the-world-s-most-critical-technology",
+    "title": "Chip War: The Fight for the World's Most Critical Technology",
+    "creator": "Chris Miller",
+    "year": 2022,
+    "isbn": "1982172002"
+  },
+  {
+    "id": "elon-musk",
+    "title": "Elon Musk",
+    "creator": "Walter Isaacson",
+    "year": 2023,
+    "isbn": "1982181281"
+  },
+  {
+    "id": "material-world-the-six-raw-materials-that-shape-modern-civilization",
+    "title": "Material World: The Six Raw Materials That Shape Modern Civilization",
+    "creator": "Ed Conway",
+    "year": 2023,
+    "isbn": "0593534344"
+  },
+  {
+    "id": "the-anxious-generation-how-the-great-rewiring-of-childhood-caused-an-epidemic-of-mental-illness",
+    "title": "The Anxious Generation: How the Great Rewiring of Childhood Caused an Epidemic of Mental Illness",
+    "creator": "Jonathan Haidt",
+    "year": 2024,
+    "isbn": "0593655036"
+  },
+  {
+    "id": "nexus-a-brief-history-of-information-networks-from-the-stone-age-to-ai",
+    "title": "Nexus: A Brief History of Information Networks from the Stone Age to AI",
+    "creator": "Yuval Noah Harari",
+    "year": 2024,
+    "isbn": "059373422X"
+  },
+  {
+    "id": "m-l-ora-del-destino",
+    "title": "M. L'ora del destino",
+    "creator": "Antonio Scurati",
+    "year": 2024,
+    "isbn": "9788830104976",
+    "collectionId": "books-m",
+    "position": 4
+  },
+  {
+    "id": "the-worlds-i-see-curiosity-exploration-and-discovery-at-the-dawn-of-ai",
+    "title": "The Worlds I See: Curiosity, Exploration, and Discovery at the Dawn of AI",
+    "creator": "Fei-Fei Li",
+    "year": 2023,
+    "isbn": "1250897939"
+  },
+  {
+    "id": "chokepoints-american-power-in-the-age-of-economic-warfare",
+    "title": "Chokepoints: American Power in the Age of Economic Warfare",
+    "creator": "Edward Fishman",
+    "year": 2025,
+    "isbn": "0593712978"
+  },
+  {
+    "id": "there-is-no-antimemetics-division",
+    "title": "There Is No Antimemetics Division",
+    "creator": "qntm",
+    "year": 2008,
+    "isbn": "9780593983751"
+  },
+  {
+    "id": "convenience-store-woman",
+    "title": "Convenience Store Woman",
+    "creator": "Sayaka Murata",
+    "year": 2016,
+    "isbn": "0802128254"
+  },
+  {
+    "id": "the-library-at-mount-char",
+    "title": "The Library at Mount Char",
+    "creator": "Scott Hawkins",
+    "year": 2015,
+    "isbn": "0553418629"
+  },
+  {
+    "id": "careless-people-a-cautionary-tale-of-power-greed-and-lost-idealism",
+    "title": "Careless People: A Cautionary Tale of Power, Greed, and Lost Idealism",
+    "creator": "Sarah Wynn-Williams",
+    "year": 2025,
+    "isbn": "1250391237"
+  },
+  {
+    "id": "entangled-life-how-fungi-make-our-worlds-change-our-minds-shape-our-futures",
+    "title": "Entangled Life: How Fungi Make Our Worlds, Change Our Minds & Shape Our Futures",
+    "creator": "Merlin Sheldrake",
+    "year": 2020,
+    "isbn": "0525510311"
+  },
+  {
+    "id": "1929-inside-the-greatest-crash-in-history-and-how-it-shattered-a-nation",
+    "title": "1929: Inside the Greatest Crash in History – and How It Shattered a Nation",
+    "creator": "Andrew Ross Sorkin",
+    "year": 2025,
+    "isbn": "9780593296967"
+  },
+  {
+    "id": "come-se-ne-esce-il-mondo-dopo-donald-trump",
+    "title": "Come se ne esce: Il mondo dopo Donald Trump",
+    "creator": "Francesco Costa",
+    "year": 2025,
+    "isbn": "9788804776895"
+  }
+]

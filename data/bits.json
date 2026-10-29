@@ -1,0 +1,207 @@
+[
+  {
+    "id": "the-fermi-paradox",
+    "title": "The Fermi Paradox",
+    "creator": "Tim Urban",
+    "year": 2014,
+    "link": "https://waitbutwhy.com/2014/05/fermi-paradox.html",
+    "collectionId": "bits-wait-but-why",
+    "collectionTitle": "Wait But Why",
+    "position": 1
+  },
+  {
+    "id": "why-procrastinators-procrastinate",
+    "title": "Why Procrastinators Procrastinate",
+    "creator": "Tim Urban",
+    "year": 2013,
+    "link": "https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html",
+    "collectionId": "bits-wait-but-why",
+    "position": 2
+  },
+  {
+    "id": "the-tail-end",
+    "title": "The Tail End",
+    "creator": "Tim Urban",
+    "year": 2015,
+    "link": "https://waitbutwhy.com/2015/12/the-tail-end.html",
+    "collectionId": "bits-wait-but-why",
+    "position": 3
+  },
+  {
+    "id": "religion-for-the-nonreligious",
+    "title": "Religion for the Nonreligious",
+    "creator": "Tim Urban",
+    "year": 2014,
+    "link": "https://waitbutwhy.com/2014/10/religion-for-the-nonreligious.html",
+    "collectionId": "bits-wait-but-why",
+    "position": 4
+  },
+  {
+    "id": "the-cook-and-the-chef-musk-s-secret-sauce",
+    "title": "The Cook and the Chef: Musk’s Secret Sauce",
+    "creator": "Tim Urban",
+    "year": 2015,
+    "link": "https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html",
+    "collectionId": "bits-wait-but-why",
+    "position": 5
+  },
+  {
+    "id": "interplanetary-cessna",
+    "title": "Interplanetary Cessna",
+    "creator": "Randall Munroe",
+    "year": 2013,
+    "link": "https://what-if.xkcd.com/30/",
+    "collectionId": "bits-what-if",
+    "collectionTitle": "What If?",
+    "position": 1
+  },
+  {
+    "id": "drain-the-oceans",
+    "title": "Drain the Oceans",
+    "creator": "Randall Munroe",
+    "year": 2013,
+    "link": "https://what-if.xkcd.com/53/",
+    "collectionId": "bits-what-if",
+    "position": 2
+  },
+  {
+    "id": "a-mole-of-moles",
+    "title": "A Mole of Moles",
+    "creator": "Randall Munroe",
+    "year": 2012,
+    "link": "https://what-if.xkcd.com/4/",
+    "collectionId": "bits-what-if",
+    "position": 3
+  },
+  {
+    "id": "this-is-water",
+    "title": "This Is Water",
+    "creator": "David Foster Wallace",
+    "year": 2005,
+    "link": "https://www.kenyon.edu/news/archive/this-is-water/"
+  },
+  {
+    "id": "cargo-cult-science",
+    "title": "Cargo Cult Science",
+    "creator": "Richard Feynman",
+    "year": 1974,
+    "link": "https://calteches.library.caltech.edu/3043/1/CargoCult.pdf"
+  },
+  {
+    "id": "you-and-your-research",
+    "title": "You and Your Research",
+    "creator": "Richard Hamming",
+    "year": 1986,
+    "link": "https://www.cs.virginia.edu/~robins/YouAndYourResearch.html"
+  },
+  {
+    "id": "the-bus-ticket-theory-of-genius",
+    "title": "The Bus Ticket Theory of Genius",
+    "creator": "Paul Graham",
+    "year": 2019,
+    "link": "https://www.paulgraham.com/genius.html"
+  },
+  {
+    "id": "a-conversation-with-dr-jordan-b-peterson",
+    "title": "A Conversation with Dr. Jordan B. Peterson",
+    "creator": "Vikas Shah · Jordan B. Peterson",
+    "year": 2018,
+    "link": "https://www.jordanbpeterson.com/blog-posts/thoughteconomics/"
+  },
+  {
+    "id": "the-myth-of-freedom",
+    "title": "The Myth of Freedom",
+    "creator": "Yuval Noah Harari",
+    "year": 2018,
+    "link": "https://www.theguardian.com/books/2018/sep/14/yuval-noah-harari-the-new-threat-to-liberal-democracy"
+  },
+  {
+    "id": "why-some-researchers-think-i-m-wrong-about-social-media-and-mental-illness",
+    "title": "Why Some Researchers Think I’m Wrong About Social Media and Mental Illness",
+    "creator": "Jonathan Haidt",
+    "year": 2024,
+    "link": "https://www.afterbabel.com/p/why-some-researchers-think-im-wrong"
+  },
+  {
+    "id": "the-fable-of-the-dragon-tyrant",
+    "title": "The Fable of the Dragon-Tyrant",
+    "creator": "Nick Bostrom",
+    "year": 2005,
+    "link": "https://nickbostrom.com/papers/the-fable-of-the-dragon-tyrant/"
+  },
+  {
+    "id": "1-000-true-fans",
+    "title": "1,000 True Fans",
+    "creator": "Kevin Kelly",
+    "year": 2008,
+    "link": "https://kk.org/thetechnium/1000-true-fans/"
+  },
+  {
+    "id": "what-we-get-wrong-about-technology",
+    "title": "What We Get Wrong About Technology",
+    "creator": "Tim Harford",
+    "year": 2017,
+    "link": "https://timharford.com/2017/08/what-we-get-wrong-about-technology/"
+  },
+  {
+    "id": "i-pencil",
+    "title": "I, Pencil",
+    "creator": "Leonard E. Read",
+    "year": 1958,
+    "link": "https://fee.org/articles/i-pencil/"
+  },
+  {
+    "id": "how-to-build-a-20-billion-semiconductor-fab",
+    "title": "How to Build a $20 Billion Semiconductor Fab",
+    "creator": "Brian Potter",
+    "year": 2021,
+    "link": "https://www.construction-physics.com/p/how-to-build-a-20-billion-semiconductor"
+  },
+  {
+    "id": "nuclear-power-and-secure-energy-transitions-executive-summary",
+    "title": "Nuclear Power and Secure Energy Transitions — Executive Summary",
+    "creator": "International Energy Agency",
+    "year": 2022,
+    "link": "https://www.iea.org/reports/nuclear-power-and-secure-energy-transitions/executive-summary",
+    "collectionId": "bits-energy",
+    "collectionTitle": "Energy",
+    "position": 1
+  },
+  {
+    "id": "what-are-the-safest-and-cleanest-sources-of-energy",
+    "title": "What Are the Safest and Cleanest Sources of Energy?",
+    "creator": "Hannah Ritchie",
+    "year": 2020,
+    "link": "https://ourworldindata.org/safest-sources-of-energy",
+    "collectionId": "bits-energy",
+    "position": 2
+  },
+  {
+    "id": "just-keep-buying",
+    "title": "Just Keep Buying",
+    "creator": "Nick Maggiulli",
+    "year": 2019,
+    "link": "https://ofdollarsanddata.com/just-keep-buying/",
+    "collectionId": "bits-investing",
+    "collectionTitle": "Investing",
+    "position": 1
+  },
+  {
+    "id": "even-god-couldn-t-beat-dollar-cost-averaging",
+    "title": "Even God Couldn’t Beat Dollar-Cost Averaging",
+    "creator": "Nick Maggiulli",
+    "year": 2019,
+    "link": "https://ofdollarsanddata.com/even-god-couldnt-beat-dollar-cost-averaging/",
+    "collectionId": "bits-investing",
+    "position": 2
+  },
+  {
+    "id": "the-psychology-of-money",
+    "title": "The Psychology of Money",
+    "creator": "Morgan Housel",
+    "year": 2018,
+    "link": "https://collabfund.com/blog/the-psychology-of-money/",
+    "collectionId": "bits-investing",
+    "position": 3
+  }
+]

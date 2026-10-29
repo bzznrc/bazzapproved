@@ -1,0 +1,794 @@
+[
+  {
+    "id": "tt33764258",
+    "title": "The Odyssey",
+    "creator": "Christopher Nolan",
+    "year": 2026
+  },
+  {
+    "id": "tt6700846",
+    "title": "AlphaGo",
+    "creator": "Greg Kohs",
+    "year": 2017
+  },
+  {
+    "id": "tt1655442",
+    "title": "The Artist",
+    "creator": "Michel Hazanavicius",
+    "year": 2011
+  },
+  {
+    "id": "tt14230458",
+    "title": "Poor Things",
+    "creator": "Yorgos Lanthimos",
+    "year": 2023
+  },
+  {
+    "id": "tt27503384",
+    "title": "Perfect Days",
+    "creator": "Wim Wenders",
+    "year": 2023
+  },
+  {
+    "id": "tt17041964",
+    "title": "Navalny",
+    "creator": "Daniel Roher",
+    "year": 2022
+  },
+  {
+    "id": "tt12810074",
+    "title": "Nightbitch",
+    "creator": "Marielle Heller",
+    "year": 2024
+  },
+  {
+    "id": "tt2543164",
+    "title": "Arrival",
+    "creator": "Denis Villeneuve",
+    "year": 2016
+  },
+  {
+    "id": "tt22022452",
+    "title": "Inside Out 2",
+    "creator": "Kelsey Mann",
+    "year": 2024,
+    "collectionId": "movies-inside-out",
+    "collectionTitle": "Inside Out",
+    "position": 2
+  },
+  {
+    "id": "tt24082438",
+    "title": "20 Days in Mariupol",
+    "creator": "Mstyslav Chernov",
+    "year": 2023
+  },
+  {
+    "id": "tt7160372",
+    "title": "The Zone of Interest",
+    "creator": "Jonathan Glazer",
+    "year": 2023
+  },
+  {
+    "id": "tt0758758",
+    "title": "Into the Wild",
+    "creator": "Sean Penn",
+    "year": 2007
+  },
+  {
+    "id": "tt7204006",
+    "title": "Love and Bullets",
+    "creator": "Antonio Manetti,Marco Manetti",
+    "year": 2017
+  },
+  {
+    "id": "tt17351924",
+    "title": "Saltburn",
+    "creator": "Emerald Fennell",
+    "year": 2023
+  },
+  {
+    "id": "tt16425284",
+    "title": "Mixed by Erry",
+    "creator": "Sydney Sibilia",
+    "year": 2023
+  },
+  {
+    "id": "tt9362722",
+    "title": "Spider-Man: Across the Spider-Verse",
+    "creator": "Joaquim Dos Santos,Kemp Powers,Justin K. Thompson",
+    "year": 2023,
+    "collectionId": "movies-spider-verse",
+    "collectionTitle": "Spider-Verse",
+    "position": 2
+  },
+  {
+    "id": "tt4633694",
+    "title": "Spider-Man: Into the Spider-Verse",
+    "creator": "Bob Persichetti,Peter Ramsey,Rodney Rothman",
+    "year": 2018,
+    "collectionId": "movies-spider-verse",
+    "position": 1
+  },
+  {
+    "id": "tt8745676",
+    "title": "The Swimmers",
+    "creator": "Sally El Hosaini",
+    "year": 2022
+  },
+  {
+    "id": "tt6751668",
+    "title": "Parasite",
+    "creator": "Bong Joon Ho",
+    "year": 2019
+  },
+  {
+    "id": "tt0033467",
+    "title": "Citizen Kane",
+    "creator": "Orson Welles",
+    "year": 1941
+  },
+  {
+    "id": "tt8178634",
+    "title": "RRR",
+    "creator": "S.S. Rajamouli",
+    "year": 2022
+  },
+  {
+    "id": "tt6710474",
+    "title": "Everything Everywhere All at Once",
+    "creator": "Daniel Kwan,Daniel Scheinert",
+    "year": 2022
+  },
+  {
+    "id": "tt14544192",
+    "title": "Bo Burnham: Inside",
+    "creator": "Bo Burnham",
+    "year": 2021
+  },
+  {
+    "id": "tt2380307",
+    "title": "Coco",
+    "creator": "Lee Unkrich,Adrian Molina",
+    "year": 2017
+  },
+  {
+    "id": "tt0816692",
+    "title": "Interstellar",
+    "creator": "Christopher Nolan",
+    "year": 2014
+  },
+  {
+    "id": "tt2584384",
+    "title": "Jojo Rabbit",
+    "creator": "Taika Waititi",
+    "year": 2019
+  },
+  {
+    "id": "tt8579674",
+    "title": "1917",
+    "creator": "Sam Mendes",
+    "year": 2019
+  },
+  {
+    "id": "tt7286456",
+    "title": "Joker",
+    "creator": "Todd Phillips",
+    "year": 2019
+  },
+  {
+    "id": "tt7775622",
+    "title": "Free Solo",
+    "creator": "Jimmy Chin,Elizabeth Chai Vasarhelyi",
+    "year": 2018
+  },
+  {
+    "id": "tt7349662",
+    "title": "BlacKkKlansman",
+    "creator": "Spike Lee",
+    "year": 2018
+  },
+  {
+    "id": "tt0050083",
+    "title": "12 Angry Men",
+    "creator": "Sidney Lumet",
+    "year": 1957
+  },
+  {
+    "id": "tt5311514",
+    "title": "Your Name.",
+    "creator": "Makoto Shinkai",
+    "year": 2016
+  },
+  {
+    "id": "tt5027774",
+    "title": "Three Billboards Outside Ebbing, Missouri",
+    "creator": "Martin McDonagh",
+    "year": 2017
+  },
+  {
+    "id": "tt3553976",
+    "title": "Captain Fantastic",
+    "creator": "Matt Ross",
+    "year": 2016
+  },
+  {
+    "id": "tt0425112",
+    "title": "Hot Fuzz",
+    "creator": "Edgar Wright",
+    "year": 2007,
+    "collectionId": "movies-cornetto-trilogy",
+    "collectionTitle": "Cornetto trilogy",
+    "position": 2
+  },
+  {
+    "id": "tt5929776",
+    "title": "Before the Flood",
+    "creator": "Fisher Stevens",
+    "year": 2016
+  },
+  {
+    "id": "tt3315342",
+    "title": "Logan",
+    "creator": "James Mangold",
+    "year": 2017,
+    "collectionId": "movies-x-men",
+    "collectionTitle": "X-Men",
+    "position": 9
+  },
+  {
+    "id": "tt4550098",
+    "title": "Nocturnal Animals",
+    "creator": "Tom Ford",
+    "year": 2016
+  },
+  {
+    "id": "tt0443453",
+    "title": "Borat",
+    "creator": "Larry Charles",
+    "year": 2006
+  },
+  {
+    "id": "tt0120917",
+    "title": "The Emperor's New Groove",
+    "creator": "Mark Dindal",
+    "year": 2000,
+    "collectionId": "movies-the-emperor-s-new-groove",
+    "collectionTitle": "The Emperor’s New Groove",
+    "position": 1
+  },
+  {
+    "id": "tt0034583",
+    "title": "Casablanca",
+    "creator": "Michael Curtiz",
+    "year": 1942
+  },
+  {
+    "id": "tt2179121",
+    "title": "What's in a Name?",
+    "creator": "Alexandre de La Patellière,Matthieu Delaporte",
+    "year": 2012
+  },
+  {
+    "id": "tt0027977",
+    "title": "Modern Times",
+    "creator": "Charles Chaplin",
+    "year": 1936
+  },
+  {
+    "id": "tt4025514",
+    "title": "Suburra",
+    "creator": "Stefano Sollima",
+    "year": 2015
+  },
+  {
+    "id": "tt2096673",
+    "title": "Inside Out",
+    "creator": "Pete Docter,Ronnie Del Carmen",
+    "year": 2015,
+    "collectionId": "movies-inside-out",
+    "position": 1
+  },
+  {
+    "id": "tt2582802",
+    "title": "Whiplash",
+    "creator": "Damien Chazelle",
+    "year": 2014
+  },
+  {
+    "id": "tt0268380",
+    "title": "Ice Age",
+    "creator": "Chris Wedge,Carlos Saldanha",
+    "year": 2002
+  },
+  {
+    "id": "tt0780536",
+    "title": "In Bruges",
+    "creator": "Martin McDonagh",
+    "year": 2008
+  },
+  {
+    "id": "tt0498380",
+    "title": "Letters from Iwo Jima",
+    "creator": "Clint Eastwood",
+    "year": 2006
+  },
+  {
+    "id": "tt1065073",
+    "title": "Boyhood",
+    "creator": "Richard Linklater",
+    "year": 2014
+  },
+  {
+    "id": "tt0470752",
+    "title": "Ex Machina",
+    "creator": "Alex Garland",
+    "year": 2014
+  },
+  {
+    "id": "tt2866360",
+    "title": "Coherence",
+    "creator": "James Ward Byrkit",
+    "year": 2013
+  },
+  {
+    "id": "tt2562232",
+    "title": "Birdman or (The Unexpected Virtue of Ignorance)",
+    "creator": "Alejandro G. Iñárritu",
+    "year": 2014
+  },
+  {
+    "id": "tt0265666",
+    "title": "The Royal Tenenbaums",
+    "creator": "Wes Anderson",
+    "year": 2001
+  },
+  {
+    "id": "tt2406252",
+    "title": "Venus in Fur",
+    "creator": "Roman Polanski",
+    "year": 2013
+  },
+  {
+    "id": "tt0095765",
+    "title": "Cinema Paradiso",
+    "creator": "Giuseppe Tornatore",
+    "year": 1988
+  },
+  {
+    "id": "tt2347569",
+    "title": "Frances Ha",
+    "creator": "Noah Baumbach",
+    "year": 2012
+  },
+  {
+    "id": "tt0211915",
+    "title": "Amélie",
+    "creator": "Jean-Pierre Jeunet",
+    "year": 2001
+  },
+  {
+    "id": "tt0457430",
+    "title": "Pan's Labyrinth",
+    "creator": "Guillermo del Toro",
+    "year": 2006
+  },
+  {
+    "id": "tt2278871",
+    "title": "Blue Is the Warmest Colour",
+    "creator": "Abdellatif Kechiche",
+    "year": 2013
+  },
+  {
+    "id": "tt1682180",
+    "title": "Stoker",
+    "creator": "Park Chan-wook",
+    "year": 2013
+  },
+  {
+    "id": "tt0425210",
+    "title": "Lucky Number Slevin",
+    "creator": "Paul McGuigan",
+    "year": 2006
+  },
+  {
+    "id": "tt0054215",
+    "title": "Psycho",
+    "creator": "Alfred Hitchcock",
+    "year": 1960
+  },
+  {
+    "id": "tt1542344",
+    "title": "127 Hours",
+    "creator": "Danny Boyle",
+    "year": 2010
+  },
+  {
+    "id": "tt0910970",
+    "title": "WALL·E",
+    "creator": "Andrew Stanton",
+    "year": 2008
+  },
+  {
+    "id": "tt0407887",
+    "title": "The Departed",
+    "creator": "Martin Scorsese",
+    "year": 2006
+  },
+  {
+    "id": "tt0361748",
+    "title": "Inglourious Basterds",
+    "creator": "Quentin Tarantino",
+    "year": 2009
+  },
+  {
+    "id": "tt0180093",
+    "title": "Requiem for a Dream",
+    "creator": "Darren Aronofsky",
+    "year": 2000
+  },
+  {
+    "id": "tt0099685",
+    "title": "GoodFellas",
+    "creator": "Martin Scorsese",
+    "year": 1990
+  },
+  {
+    "id": "tt1334260",
+    "title": "Never Let Me Go",
+    "creator": "Mark Romanek",
+    "year": 2010
+  },
+  {
+    "id": "tt1205489",
+    "title": "Gran Torino",
+    "creator": "Clint Eastwood",
+    "year": 2008
+  },
+  {
+    "id": "tt0364569",
+    "title": "Oldboy",
+    "creator": "Park Chan-wook",
+    "year": 2003
+  },
+  {
+    "id": "tt0446029",
+    "title": "Scott Pilgrim vs. the World",
+    "creator": "Edgar Wright",
+    "year": 2010
+  },
+  {
+    "id": "tt0416320",
+    "title": "Match Point",
+    "creator": "Woody Allen",
+    "year": 2005
+  },
+  {
+    "id": "tt1979320",
+    "title": "Rush",
+    "creator": "Ron Howard",
+    "year": 2013
+  },
+  {
+    "id": "tt1869716",
+    "title": "The East",
+    "creator": "Zal Batmanglij",
+    "year": 2013
+  },
+  {
+    "id": "tt0409459",
+    "title": "Watchmen",
+    "creator": "Zack Snyder",
+    "year": 2009
+  },
+  {
+    "id": "tt0467406",
+    "title": "Juno",
+    "creator": "Jason Reitman",
+    "year": 2007
+  },
+  {
+    "id": "tt0053125",
+    "title": "North by Northwest",
+    "creator": "Alfred Hitchcock",
+    "year": 1959
+  },
+  {
+    "id": "tt0110912",
+    "title": "Pulp Fiction",
+    "creator": "Quentin Tarantino",
+    "year": 1994
+  },
+  {
+    "id": "tt1527186",
+    "title": "Melancholia",
+    "creator": "Lars von Trier",
+    "year": 2011
+  },
+  {
+    "id": "tt0339291",
+    "title": "A Series of Unfortunate Events",
+    "creator": "Brad Silberling",
+    "year": 2004
+  },
+  {
+    "id": "tt2358891",
+    "title": "The Great Beauty",
+    "creator": "Paolo Sorrentino",
+    "year": 2013
+  },
+  {
+    "id": "tt1772925",
+    "title": "Jiro Dreams of Sushi",
+    "creator": "David Gelb",
+    "year": 2011
+  },
+  {
+    "id": "tt1023490",
+    "title": "Il Divo",
+    "creator": "Paolo Sorrentino",
+    "year": 2008
+  },
+  {
+    "id": "tt0114709",
+    "title": "Toy Story",
+    "creator": "John Lasseter",
+    "year": 1995,
+    "collectionId": "movies-toy-story",
+    "collectionTitle": "Toy Story",
+    "position": 1
+  },
+  {
+    "id": "tt0047396",
+    "title": "Rear Window",
+    "creator": "Alfred Hitchcock",
+    "year": 1954
+  },
+  {
+    "id": "tt0985694",
+    "title": "Machete",
+    "creator": "Ethan Maniquis,Robert Rodriguez",
+    "year": 2010,
+    "collectionId": "movies-machete",
+    "collectionTitle": "Machete",
+    "position": 1
+  },
+  {
+    "id": "tt0068646",
+    "title": "The Godfather",
+    "creator": "Francis Ford Coppola",
+    "year": 1972
+  },
+  {
+    "id": "tt2101441",
+    "title": "Spring Breakers",
+    "creator": "Harmony Korine",
+    "year": 2012
+  },
+  {
+    "id": "tt1480656",
+    "title": "Cosmopolis",
+    "creator": "David Cronenberg",
+    "year": 2012
+  },
+  {
+    "id": "tt1687247",
+    "title": "Life in a Day",
+    "creator": "Kevin Macdonald",
+    "year": 2011
+  },
+  {
+    "id": "tt0052357",
+    "title": "Vertigo",
+    "creator": "Alfred Hitchcock",
+    "year": 1958
+  },
+  {
+    "id": "tt1010048",
+    "title": "Slumdog Millionaire",
+    "creator": "Danny Boyle,Loveleen Tandan",
+    "year": 2008
+  },
+  {
+    "id": "tt0477348",
+    "title": "No Country for Old Men",
+    "creator": "Ethan Coen,Joel Coen",
+    "year": 2007
+  },
+  {
+    "id": "tt0117951",
+    "title": "Trainspotting",
+    "creator": "Danny Boyle",
+    "year": 1996,
+    "collectionId": "movies-trainspotting",
+    "collectionTitle": "Trainspotting",
+    "position": 1
+  },
+  {
+    "id": "tt0169547",
+    "title": "American Beauty",
+    "creator": "Sam Mendes",
+    "year": 1999
+  },
+  {
+    "id": "tt0209144",
+    "title": "Memento",
+    "creator": "Christopher Nolan",
+    "year": 2000
+  },
+  {
+    "id": "tt0167260",
+    "title": "The Lord of the Rings: The Return of the King",
+    "creator": "Peter Jackson",
+    "year": 2003,
+    "collectionId": "movies-the-lord-of-the-rings",
+    "collectionTitle": "The Lord of the Rings",
+    "position": 3
+  },
+  {
+    "id": "tt0167261",
+    "title": "The Lord of the Rings: The Two Towers",
+    "creator": "Peter Jackson",
+    "year": 2002,
+    "collectionId": "movies-the-lord-of-the-rings",
+    "position": 2
+  },
+  {
+    "id": "tt0120737",
+    "title": "The Lord of the Rings: The Fellowship of the Ring",
+    "creator": "Peter Jackson",
+    "year": 2001,
+    "collectionId": "movies-the-lord-of-the-rings",
+    "position": 1
+  },
+  {
+    "id": "tt0432283",
+    "title": "Fantastic Mr. Fox",
+    "creator": "Wes Anderson",
+    "year": 2009
+  },
+  {
+    "id": "tt1692486",
+    "title": "Carnage",
+    "creator": "Roman Polanski",
+    "year": 2011
+  },
+  {
+    "id": "tt0416449",
+    "title": "300",
+    "creator": "Zack Snyder",
+    "year": 2006,
+    "collectionId": "movies-300",
+    "collectionTitle": "300",
+    "position": 1
+  },
+  {
+    "id": "tt0978764",
+    "title": "Sucker Punch",
+    "creator": "Zack Snyder",
+    "year": 2011
+  },
+  {
+    "id": "tt1549572",
+    "title": "Another Earth",
+    "creator": "Mike Cahill",
+    "year": 2011
+  },
+  {
+    "id": "tt1375666",
+    "title": "Inception",
+    "creator": "Christopher Nolan",
+    "year": 2010
+  },
+  {
+    "id": "tt0118799",
+    "title": "Life Is Beautiful",
+    "creator": "Roberto Benigni",
+    "year": 1997
+  },
+  {
+    "id": "tt0468569",
+    "title": "The Dark Knight",
+    "creator": "Christopher Nolan",
+    "year": 2008,
+    "collectionId": "movies-the-dark-knight-trilogy",
+    "collectionTitle": "The Dark Knight trilogy",
+    "position": 2
+  },
+  {
+    "id": "tt1748122",
+    "title": "Moonrise Kingdom",
+    "creator": "Wes Anderson",
+    "year": 2012
+  },
+  {
+    "id": "tt31806037",
+    "title": "Adolescence",
+    "year": 2025
+  },
+  {
+    "id": "tt14403178",
+    "title": "Beef",
+    "year": 2023
+  },
+  {
+    "id": "tt0386676",
+    "title": "The Office",
+    "year": 2005
+  },
+  {
+    "id": "tt0108778",
+    "title": "Friends",
+    "year": 1994
+  },
+  {
+    "id": "tt7366338",
+    "title": "Chernobyl",
+    "year": 2019
+  },
+  {
+    "id": "tt10048342",
+    "title": "The Queen's Gambit",
+    "year": 2020
+  },
+  {
+    "id": "tt0460649",
+    "title": "How I Met Your Mother",
+    "year": 2005
+  },
+  {
+    "id": "tt7767422",
+    "title": "Sex Education",
+    "year": 2019
+  },
+  {
+    "id": "tt2049116",
+    "title": "Gomorrah",
+    "year": 2014
+  },
+  {
+    "id": "tt6257970",
+    "title": "The End of the F***ing World",
+    "year": 2017
+  },
+  {
+    "id": "tt3398228",
+    "title": "BoJack Horseman",
+    "year": 2014
+  },
+  {
+    "id": "tt4158110",
+    "title": "Mr. Robot",
+    "year": 2015
+  },
+  {
+    "id": "tt2861424",
+    "title": "Rick and Morty",
+    "year": 2013
+  },
+  {
+    "id": "tt1020116",
+    "title": "Boris",
+    "year": 2007,
+    "collectionId": "movies-boris",
+    "collectionTitle": "Boris",
+    "position": 1
+  },
+  {
+    "id": "tt2085059",
+    "title": "Black Mirror",
+    "year": 2011
+  },
+  {
+    "id": "tt0903747",
+    "title": "Breaking Bad",
+    "year": 2008,
+    "collectionId": "movies-breaking-bad",
+    "collectionTitle": "Breaking Bad",
+    "position": 1
+  },
+  {
+    "id": "tt0877057",
+    "title": "Death Note",
+    "year": 2006
+  }
+]

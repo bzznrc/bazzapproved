@@ -1,0 +1,272 @@
+[
+  {
+    "id": "fable",
+    "title": "Fable",
+    "year": 2004,
+    "image": "https://storage.googleapis.com/images.pricecharting.com/17059de24f86569f4c6ae7b525b977d77ac93d219c3c349f92162756ef5c32d7/1600.jpg"
+  },
+  {
+    "id": "halo-combat-evolved",
+    "title": "Halo: Combat Evolved",
+    "year": 2001,
+    "collectionId": "games-halo",
+    "collectionTitle": "Halo",
+    "position": 1,
+    "image": "https://www.powerupgaming.ca/cdn/shop/products/9494-halo-combat-evolved-xbox-front-cover.jpg?v=1729808110"
+  },
+  {
+    "id": "halo-2",
+    "title": "Halo 2",
+    "year": 2004,
+    "collectionId": "games-halo",
+    "position": 2,
+    "image": "https://images.purexbox.com/48eaf8d401e50/halo-2-cover.cover_300x.jpg"
+  },
+  {
+    "id": "halo-3",
+    "title": "Halo 3",
+    "year": 2007,
+    "collectionId": "games-halo",
+    "position": 3,
+    "image": "https://images.purexbox.com/35be3a5a262a5/halo-3-cover.cover_300x.jpg"
+  },
+  {
+    "id": "halo-reach",
+    "title": "Halo: Reach",
+    "year": 2010,
+    "collectionId": "games-halo",
+    "position": 4,
+    "image": "https://images.purexbox.com/702875e257281/halo-reach-cover.cover_300x.jpg"
+  },
+  {
+    "id": "halo-infinite",
+    "title": "Halo Infinite",
+    "year": 2021,
+    "collectionId": "games-halo",
+    "position": 5,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1240440/5c09b42d3b89901b78c322bb366bb34a1123f468/library_capsule.jpg"
+  },
+  {
+    "id": "it-takes-two",
+    "title": "It Takes Two",
+    "year": 2021,
+    "steamId": 1426210
+  },
+  {
+    "id": "battlefield-1",
+    "title": "Battlefield 1",
+    "year": 2016,
+    "steamId": 1238840
+  },
+  {
+    "id": "helldivers-2",
+    "title": "Helldivers 2",
+    "year": 2024,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/553850/a79b4d13ce2b1e1379116085b4f97b45c14548ab/library_capsule.jpg"
+  },
+  {
+    "id": "astros-playroom",
+    "title": "Astro’s Playroom",
+    "year": 2020,
+    "image": "https://images.pushsquare.com/78e5d5ea9cba7/astros-playroom-cover.cover_large.jpg",
+    "collectionId": "games-astro",
+    "collectionTitle": "Astro",
+    "position": 1
+  },
+  {
+    "id": "astro-bot",
+    "title": "Astro Bot",
+    "year": 2024,
+    "image": "https://images.pushsquare.com/ca681ce6fc874/astro-bot-cover.cover_300x.jpg",
+    "collectionId": "games-astro",
+    "position": 2
+  },
+  {
+    "id": "god-of-war-2018",
+    "title": "God of War (2018)",
+    "year": 2018,
+    "steamId": 1593500
+  },
+  {
+    "id": "the-last-of-us",
+    "title": "The Last of Us",
+    "year": 2013,
+    "steamId": 1888930,
+    "collectionId": "games-the-last-of-us",
+    "collectionTitle": "The Last of Us",
+    "position": 1
+  },
+  {
+    "id": "the-last-of-us-part-ii",
+    "title": "The Last of Us Part II",
+    "year": 2020,
+    "collectionId": "games-the-last-of-us",
+    "position": 2,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2531310/aeac394b61ac94b5d4ea939351baf3943ac0b282/library_600x900.jpg"
+  },
+  {
+    "id": "ratchet-clank-rift-apart",
+    "title": "Ratchet & Clank: Rift Apart",
+    "year": 2021,
+    "steamId": 1895880
+  },
+  {
+    "id": "ghost-of-tsushima",
+    "title": "Ghost of Tsushima",
+    "year": 2020,
+    "steamId": 2215430,
+    "collectionId": "games-ghost",
+    "collectionTitle": "Ghost",
+    "position": 1
+  },
+  {
+    "id": "ghost-of-yotei",
+    "title": "Ghost of Yōtei",
+    "year": 2025,
+    "image": "https://images.pushsquare.com/69286d1e1f950/ghost-of-yotei-cover.cover_300x.jpg",
+    "collectionId": "games-ghost",
+    "position": 2
+  },
+  {
+    "id": "hades",
+    "title": "Hades",
+    "year": 2020,
+    "steamId": 1145360,
+    "collectionId": "games-hades",
+    "collectionTitle": "Hades",
+    "position": 1
+  },
+  {
+    "id": "hades-ii",
+    "title": "Hades II",
+    "year": 2025,
+    "collectionId": "games-hades",
+    "position": 2,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145350/2ba105370a00877459144db0dd68af5f2d338429/library_capsule.jpg"
+  },
+  {
+    "id": "brotato",
+    "title": "Brotato",
+    "year": 2021,
+    "steamId": 1942280
+  },
+  {
+    "id": "a-short-hike",
+    "title": "A Short Hike",
+    "year": 2019,
+    "steamId": 1055540
+  },
+  {
+    "id": "the-binding-of-isaac",
+    "title": "The Binding of Isaac",
+    "year": 2011,
+    "steamId": 113200
+  },
+  {
+    "id": "slay-the-spire",
+    "title": "Slay the Spire",
+    "year": 2019,
+    "steamId": 646570,
+    "collectionId": "games-slay-the-spire",
+    "collectionTitle": "Slay the Spire",
+    "position": 1
+  },
+  {
+    "id": "slay-the-spire-2",
+    "title": "Slay the Spire 2",
+    "year": 2026,
+    "collectionId": "games-slay-the-spire",
+    "position": 2,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2868840/4bf4dad2c9c82b1989eee4a664ca7ce7bf3cc4a7/library_600x900.jpg"
+  },
+  {
+    "id": "super-mario-galaxy",
+    "title": "Super Mario Galaxy",
+    "year": 2007,
+    "image": "https://images.nintendolife.com/games/wii/super_mario_galaxy/cover_large.jpg",
+    "collectionId": "games-super-mario-3d",
+    "collectionTitle": "Super Mario 3D",
+    "position": 1
+  },
+  {
+    "id": "super-mario-galaxy-2",
+    "title": "Super Mario Galaxy 2",
+    "year": 2010,
+    "image": "https://images.nintendolife.com/games/wii/super_mario_galaxy_2/cover_large.jpg",
+    "collectionId": "games-super-mario-3d",
+    "position": 2
+  },
+  {
+    "id": "super-mario-odyssey",
+    "title": "Super Mario Odyssey",
+    "year": 2017,
+    "image": "https://images.nintendolife.com/79d7d24eda071/super-mario-odyssey-cover.cover_300x.jpg",
+    "collectionId": "games-super-mario-3d",
+    "position": 3
+  },
+  {
+    "id": "the-legend-of-zelda-breath-of-the-wild",
+    "title": "The Legend of Zelda: Breath of the Wild",
+    "year": 2017,
+    "image": "https://images.nintendolife.com/15a20bc6c7642/legend-of-zelda-breath-of-the-wild-cover.cover_300x.jpg",
+    "collectionId": "games-the-legend-of-zelda",
+    "collectionTitle": "The Legend of Zelda",
+    "position": 1
+  },
+  {
+    "id": "the-legend-of-zelda-tears-of-the-kingdom",
+    "title": "The Legend of Zelda: Tears of the Kingdom",
+    "year": 2023,
+    "image": "https://images.nintendolife.com/3c28307f2fe0a/legend-of-zelda-tears-of-the-kingdom-cover.cover_300x.jpg",
+    "collectionId": "games-the-legend-of-zelda",
+    "position": 2
+  },
+  {
+    "id": "super-mario-bros-wonder",
+    "title": "Super Mario Bros. Wonder",
+    "year": 2023,
+    "image": "https://images.nintendolife.com/aaa017bb4e5cc/super-mario-bros-wonder-cover.cover_300x.jpg"
+  },
+  {
+    "id": "mario-kart-world",
+    "title": "Mario Kart World",
+    "year": 2025,
+    "image": "https://images.nintendolife.com/179b5a8ddb955/mario-kart-world-cover.cover_300x.jpg"
+  },
+  {
+    "id": "dave-the-diver",
+    "title": "Dave the Diver",
+    "year": 2022,
+    "steamId": 1868140
+  },
+  {
+    "id": "turnip-boy-commits-tax-evasion",
+    "title": "Turnip Boy Commits Tax Evasion",
+    "year": 2021,
+    "steamId": 1205450
+  },
+  {
+    "id": "ni-no-kuni-wrath-of-the-white-witch",
+    "title": "Ni no Kuni: Wrath of the White Witch",
+    "year": 2011,
+    "steamId": 798460
+  },
+  {
+    "id": "superhot",
+    "title": "SUPERHOT",
+    "year": 2016,
+    "steamId": 322500
+  },
+  {
+    "id": "cocoon",
+    "title": "COCOON",
+    "year": 2023,
+    "steamId": 1497440
+  },
+  {
+    "id": "castle-crashers",
+    "title": "Castle Crashers",
+    "year": 2008,
+    "steamId": 204360
+  }
+]
