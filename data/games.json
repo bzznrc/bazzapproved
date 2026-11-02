@@ -12,7 +12,8 @@
     "collectionId": "games-halo",
     "collectionTitle": "Halo",
     "position": 1,
-    "image": "https://www.powerupgaming.ca/cdn/shop/products/9494-halo-combat-evolved-xbox-front-cover.jpg?v=1729808110"
+    "image": "https://www.powerupgaming.ca/cdn/shop/products/9494-halo-combat-evolved-xbox-front-cover.jpg?v=1729808110",
+    "portraitImage": "https://images.igdb.com/igdb/image/upload/t_original/co2r2r.jpg"
   },
   {
     "id": "halo-2",
@@ -20,7 +21,8 @@
     "year": 2004,
     "collectionId": "games-halo",
     "position": 2,
-    "image": "https://images.purexbox.com/48eaf8d401e50/halo-2-cover.cover_300x.jpg"
+    "image": "https://images.purexbox.com/48eaf8d401e50/halo-2-cover.cover_300x.jpg",
+    "portraitImage": "https://images.igdb.com/igdb/image/upload/t_original/co1x77.jpg"
   },
   {
     "id": "halo-3",
@@ -28,7 +30,8 @@
     "year": 2007,
     "collectionId": "games-halo",
     "position": 3,
-    "image": "https://images.purexbox.com/35be3a5a262a5/halo-3-cover.cover_300x.jpg"
+    "image": "https://images.purexbox.com/35be3a5a262a5/halo-3-cover.cover_300x.jpg",
+    "portraitImage": "https://images.igdb.com/igdb/image/upload/t_original/co1xhc.jpg"
   },
   {
     "id": "halo-reach",
@@ -36,7 +39,8 @@
     "year": 2010,
     "collectionId": "games-halo",
     "position": 4,
-    "image": "https://images.purexbox.com/702875e257281/halo-reach-cover.cover_300x.jpg"
+    "image": "https://images.purexbox.com/702875e257281/halo-reach-cover.cover_300x.jpg",
+    "portraitImage": "https://images.igdb.com/igdb/image/upload/t_original/co1xha.jpg"
   },
   {
     "id": "halo-infinite",
@@ -56,7 +60,10 @@
     "id": "battlefield-1",
     "title": "Battlefield 1",
     "year": 2016,
-    "steamId": 1238840
+    "steamId": 1238840,
+    "collectionId": "games-battlefield",
+    "collectionTitle": "Battlefield",
+    "position": 3
   },
   {
     "id": "helldivers-2",
@@ -85,7 +92,10 @@
     "id": "god-of-war-2018",
     "title": "God of War (2018)",
     "year": 2018,
-    "steamId": 1593500
+    "steamId": 1593500,
+    "collectionId": "games-god-of-war",
+    "position": 1,
+    "collectionTitle": "God of War"
   },
   {
     "id": "the-last-of-us",
@@ -268,5 +278,127 @@
     "title": "Castle Crashers",
     "year": 2008,
     "steamId": 204360
+  },
+  {
+    "id": "lego-racers",
+    "title": "LEGO Racers",
+    "year": 1999,
+    "image": "https://www.lego.com/cdn/cs/set/assets/blt4e24f31ddda9241c/lego_racers_cover.jpeg?width=700&format=jpg"
+  },
+  {
+    "id": "warcraft-iii-reign-of-chaos",
+    "title": "Warcraft III: Reign of Chaos",
+    "year": 2002,
+    "image": "https://media.vandal.net/m/960/warcraft-3-201610722230_1.jpg"
+  },
+  {
+    "id": "grand-theft-auto-2",
+    "title": "Grand Theft Auto 2",
+    "year": 1999,
+    "image": "https://www.mobygames.com/images/covers/l/145594-grand-theft-auto-2-windows-front-cover.jpg"
+  },
+  {
+    "id": "bioshock",
+    "title": "BioShock",
+    "year": 2007,
+    "steamId": 7670,
+    "collectionId": "games-bioshock",
+    "collectionTitle": "BioShock",
+    "position": 1
+  },
+  {
+    "id": "bioshock-infinite",
+    "title": "BioShock Infinite",
+    "year": 2013,
+    "steamId": 8870,
+    "collectionId": "games-bioshock",
+    "position": 2
+  },
+  {
+    "id": "dead-rising",
+    "title": "Dead Rising",
+    "year": 2006,
+    "steamId": 427190
+  },
+  {
+    "id": "geometry-wars-retro-evolved-2",
+    "title": "Geometry Wars: Retro Evolved 2",
+    "year": 2008,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1uck.jpg"
+  },
+  {
+    "id": "plants-vs-zombies",
+    "title": "Plants vs. Zombies",
+    "year": 2009,
+    "steamId": 3590
+  },
+  {
+    "id": "world-of-goo",
+    "title": "World of Goo",
+    "year": 2008,
+    "steamId": 22000
+  },
+  {
+    "id": "control",
+    "title": "Control",
+    "year": 2019,
+    "steamId": 870780
+  },
+  {
+    "id": "littlebigplanet",
+    "title": "LittleBigPlanet",
+    "year": 2008,
+    "image": "https://assets-prd.ignimgs.com/2022/01/07/littlebigplanet-1-button-crop-1641596100455.jpg",
+    "collectionId": "games-littlebigplanet",
+    "collectionTitle": "LittleBigPlanet & Sackboy",
+    "position": 1
+  },
+  {
+    "id": "littlebigplanet-2",
+    "title": "LittleBigPlanet 2",
+    "year": 2011,
+    "image": "https://i.gadgets360cdn.com/products/large/littlebigplanet-2-button-badcrop-1641596192693-1000x1000-1658124036.jpg",
+    "collectionId": "games-littlebigplanet",
+    "position": 2
+  },
+  {
+    "id": "littlebigplanet-3",
+    "title": "LittleBigPlanet 3",
+    "year": 2014,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3t1c.jpg",
+    "collectionId": "games-littlebigplanet",
+    "position": 3
+  },
+  {
+    "id": "sackboy-a-big-adventure",
+    "title": "Sackboy: A Big Adventure",
+    "year": 2020,
+    "image": "https://fanatical.imgix.net/product/original/e711a171-0ab4-4e2c-b865-59a2b043f8a0.jpeg?auto=compress",
+    "collectionId": "games-littlebigplanet",
+    "position": 4
+  },
+  {
+    "id": "battlefield-bad-company",
+    "title": "Battlefield: Bad Company",
+    "year": 2008,
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1xbe.jpg",
+    "collectionId": "games-battlefield",
+    "position": 1
+  },
+  {
+    "id": "battlefield-3",
+    "title": "Battlefield 3",
+    "year": 2011,
+    "steamId": 1238820,
+    "collectionId": "games-battlefield",
+    "position": 2
+  },
+  {
+    "id": "god-of-war-ragnarok",
+    "title": "God of War Ragnarök",
+    "year": 2022,
+    "steamId": 2322010,
+    "collectionId": "games-god-of-war",
+    "position": 2
   }
 ]

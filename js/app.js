@@ -122,6 +122,9 @@
 
   function imageCandidates(entry, kind) {
     const urls = [];
+    // Curated clean portraits are optional; the existing artwork stays as fallback.
+    const portrait = kind === 'games' ? safeURL(entry.portraitImage) : null;
+    if (portrait) urls.push(portrait);
     const override = safeURL(entry.image);
     if (override) urls.push(override);
     if (kind === 'books' && /^\d{9}[\dX]$|^\d{13}$/.test(text(entry.isbn))) {
@@ -134,7 +137,7 @@
       // Ordinary image requests work cross-origin on GitHub Pages; Store Search
       // is a JSON API and does not reliably allow browser CORS requests.
       const base = `https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/${entry.steamId}`;
-      urls.push(`${base}/library_600x900.jpg`, `${base}/library_600x900_2x.jpg`, `${base}/header.jpg`);
+      urls.push(`${base}/library_600x900_2x.jpg`, `${base}/library_600x900.jpg`);
     }
     return [...new Set(urls)];
   }
@@ -222,6 +225,7 @@
     image.loading = 'lazy';
     image.decoding = 'async';
     image.referrerPolicy = 'no-referrer';
+    const portrait = kind === 'games' ? safeURL(entry.portraitImage) : null;
     let attemptedLookup = false;
     const tryNext = async () => {
       image.classList.remove('loaded');
@@ -235,6 +239,11 @@
       image.remove();
     };
     image.addEventListener('load', () => {
+      // A clean cover must not replace the original with a small or non-portrait image.
+      if (portrait && image.src === portrait &&
+          (image.naturalWidth < 600 || image.naturalHeight < 900 || image.naturalHeight <= image.naturalWidth)) {
+        void tryNext(); return;
+      }
       // Open Library can return tiny placeholders instead of an HTTP error.
       if (image.naturalWidth < 20 || image.naturalHeight < 20) { void tryNext(); return; }
       image.classList.add('loaded');

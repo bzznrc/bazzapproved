@@ -34,6 +34,7 @@ Each file in `data/` is one flat JSON array. The filename determines its categor
 | `isbn` | Books: ISBN string used to fetch the cover. |
 | `steamId` | Games: numeric Steam app ID for standard library artwork. |
 | `image` | Optional explicit artwork URL or relative local image path. Takes precedence over derived artwork. Useful for console games and hashed Steam artwork. |
+| `portraitImage` | Games only: optional curated banner-free portrait to try first. Accepted only at 600×900 pixels or larger, with height greater than width; otherwise the existing `image`/Steam candidates remain the fallback. |
 | `link` | Optional destination URL. Bits link their title; other cards show an “Open link” label. |
 | `note` | Optional plain-text personal note. Omit it until you have something to say. |
 | `collectionId` | Optional shared ID grouping related entries in the same file. |
@@ -114,6 +115,8 @@ Notes are plain text. HTML and Markdown are not interpreted, and links are not a
 Book covers use Open Library; movie/series posters use Metahub with a Cinemeta fallback. Exact-title/creator matching is retained for failed book covers. Successful fallback URLs are cached locally for 30 days; disabling storage does not prevent rendering.
 
 Games use standard Steam library artwork where available, exact Valve asset URLs for newer hashed assets, and explicit covers for console titles. Sources include Steam, Nintendo Life, Push Square, Pure Xbox, Power Up Gaming, and PriceCharting. Artwork remains owned by the respective rights holders. The site references the remote images rather than republishing downloaded copies.
+
+Optional `portraitImage` entries gradually introduce clean artwork without replacing existing cover URLs. Four original Halo titles have IGDB original-size portrait candidates; the browser checks their actual dimensions before accepting them. Existing covers, including console banners, remain the fallback if those candidates are unavailable or too small. Banner-free status is curated, not detected automatically. Steam candidates now try the larger portrait first and no longer fall back to landscape store headers. No CSS, HTML, card layout, crop behavior or other category's artwork selection changes.
 
 Remote providers can change or become unavailable. If all candidates fail, the original styled text cover remains visible, with no broken-image icon. Set `image` to a locally hosted cover if you want control over availability. Bits do not make remote preview-image requests.
 

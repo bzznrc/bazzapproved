@@ -371,7 +371,10 @@
     "title": "Material World: The Six Raw Materials That Shape Modern Civilization",
     "creator": "Ed Conway",
     "year": 2023,
-    "isbn": "0593534344"
+    "isbn": "0593534344",
+    "collectionId": "books-ed-conway",
+    "collectionTitle": "Ed Conway",
+    "position": 1
   },
   {
     "id": "the-anxious-generation-how-the-great-rewiring-of-childhood-caused-an-epidemic-of-mental-illness",
@@ -458,5 +461,14 @@
     "creator": "Francesco Costa",
     "year": 2025,
     "isbn": "9788804776895"
+  },
+  {
+    "id": "trade-world",
+    "title": "Trade World",
+    "creator": "Ed Conway",
+    "year": 2026,
+    "isbn": "9780753562277",
+    "collectionId": "books-ed-conway",
+    "position": 2
   }
 ]
