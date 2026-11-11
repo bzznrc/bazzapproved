@@ -2,7 +2,7 @@
   'use strict';
 
   const $ = id => document.getElementById(id);
-  const areas = { books: 'Books', movies: 'Movies', games: 'Games', bits: 'Bits' };
+  const areas = { books: 'Books', movies: 'Movies', games: 'Games', music: 'Music', bits: 'Bits' };
   const content = $('content');
   const collectionDialog = $('collection-dialog');
   const noteDialog = $('note-dialog');
@@ -10,6 +10,7 @@
   let data = {};
   let area = 'books';
   let ready = false;
+  let oldestFirst = false;
 
   const text = value => typeof value === 'string' ? value : '';
   // The files use creator consistently; aliases also accept older entries.
@@ -41,8 +42,8 @@
   }
 
   function noun(count, kind) {
-    const singular = { books: 'book', movies: 'movie', games: 'game', bits: 'entry' }[kind];
-    return count === 1 ? singular : kind === 'bits' ? 'entries' : `${singular}s`;
+    const singular = { books: 'book', movies: 'movie', games: 'game', music: 'album', bits: 'entry' }[kind];
+    return count === 1 ? singular : kind === 'music' ? 'albums' : kind === 'bits' ? 'entries' : `${singular}s`;
   }
 
   function showDialog(dialog, button) {
@@ -125,13 +126,23 @@
     // Curated clean portraits are optional; the existing artwork stays as fallback.
     const portrait = kind === 'games' ? safeURL(entry.portraitImage) : null;
     if (portrait) urls.push(portrait);
+    const catalogueCover = kind === 'games' && /^co[a-z0-9]+$/.test(text(entry.igdbCoverId)) ?
+      ['t_original', 't_cover_big_2x'].map(size => `https://images.igdb.com/igdb/image/upload/${size}/${entry.igdbCoverId}.jpg`) : [];
+    if (kind === 'games' && !entry.steamId) urls.push(...catalogueCover);
     const override = safeURL(entry.image);
     if (override) urls.push(override);
+    const fallbacks = (Array.isArray(entry.imageFallbacks) ? entry.imageFallbacks : []).map(safeURL).filter(Boolean);
+    if (kind !== 'games') urls.push(...fallbacks);
     if (kind === 'books' && /^\d{9}[\dX]$|^\d{13}$/.test(text(entry.isbn))) {
       urls.push(`https://covers.openlibrary.org/b/isbn/${entry.isbn}-L.jpg?default=false`);
+      const isbn = isbn13(entry.isbn);
+      if (isbn !== entry.isbn) urls.push(`https://covers.openlibrary.org/b/isbn/${isbn}-L.jpg?default=false`);
+      urls.push(`https://images-us.bookshop.org/ingram/${isbn}.jpg`);
+      // A second ISBN catalogue helps editions missing from Open Library.
+      urls.push(`https://www.ibs.it/images/${isbn}_0_0_0_0_0.jpg`);
     }
     if (kind === 'movies' && /^tt\d+$/.test(entry.id)) {
-      urls.push(`https://images.metahub.space/poster/small/${entry.id}/img`);
+      urls.push(`https://images.metahub.space/poster/medium/${entry.id}/img`);
     }
     if (kind === 'games' && Number.isSafeInteger(entry.steamId) && entry.steamId > 0) {
       // Ordinary image requests work cross-origin on GitHub Pages; Store Search
@@ -139,10 +150,47 @@
       const base = `https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/${entry.steamId}`;
       urls.push(`${base}/library_600x900_2x.jpg`, `${base}/library_600x900.jpg`);
     }
+    if (kind === 'games' && entry.steamId) urls.push(...catalogueCover);
+    if (kind === 'games') urls.push(...fallbacks);
     return [...new Set(urls)];
   }
 
-  // Only failed book/movie images need a metadata API. Bound concurrency and
+  function isbn13(value) {
+    if (value.length !== 10) return value;
+    const digits = '978' + value.slice(0, 9);
+    const sum = [...digits].reduce((total, digit, index) => total + Number(digit) * (index % 2 ? 3 : 1), 0);
+    return digits + ((10 - sum % 10) % 10);
+  }
+
+  function meetsArtworkMinimum(entry, kind, width, height) {
+    if (!Number.isFinite(width) || !Number.isFinite(height) || width <= 0 || height <= 0) return false;
+    // Books often have smaller catalogue originals. This is a preferred size;
+    // keep a usable cover if none of its alternatives reaches this target.
+    if (kind === 'books') return width >= 250 && height >= 375;
+    if (kind === 'games') return width >= 600 && height >= 800 && height > width;
+    if (kind === 'music') return width >= 400 && height >= 400 && Math.abs(width / height - 1) <= .02;
+    // Contained drawings use their long edge; wide comics do not need to be square.
+    if (kind === 'bits' && entry.imageFit === 'contain') return Math.max(width, height) >= 400;
+    return width >= 400 && height >= (kind === 'bits' ? 400 : 600);
+  }
+
+  function metadataImageCandidates(value) {
+    const url = safeURL(value);
+    if (!url) return [];
+    const parsed = new URL(url);
+    if (parsed.hostname === 'images.metahub.space') return [url.replace('/poster/small/', '/poster/medium/')];
+    if (['books.google.com', 'books.googleusercontent.com'].includes(parsed.hostname) && parsed.searchParams.has('zoom')) {
+      // Ask for larger catalogue images; their actual pixels are still checked.
+      return [3, 2, 1].map(zoom => {
+        const candidate = new URL(url);
+        candidate.searchParams.set('zoom', String(zoom));
+        return candidate.href;
+      });
+    }
+    return [url];
+  }
+
+  // Exhausted book/movie candidates need a metadata API. Bound concurrency and
   // share requests across the grid and open collections.
   const lookups = new Map();
   const pending = [];
@@ -171,48 +219,132 @@
   }
 
   function resolveImage(entry, kind) {
-    if (!['books', 'movies'].includes(kind)) return Promise.resolve(null);
-    const key = `cover-v3:${kind}:${entry.id}:${entry.isbn || ''}`;
+    if (!['books', 'movies'].includes(kind)) return Promise.resolve([]);
+    const key = `cover-v5:${kind}:${entry.id}:${entry.isbn || ''}`;
     if (lookups.has(key)) return lookups.get(key);
     const lookup = schedule(async () => {
       try {
         const saved = JSON.parse(localStorage.getItem(key) || 'null');
-        if (saved && Date.now() - saved.time < 30 * 86400000 && safeURL(saved.url)) return saved.url;
+        if (saved && Date.now() - saved.time < 30 * 86400000 && Array.isArray(saved.urls)) {
+          const urls = saved.urls.map(safeURL).filter(Boolean);
+          if (urls.length) return urls;
+        }
       } catch { /* Storage may be disabled; images still work. */ }
-      let found = null;
+      const found = [];
       if (kind === 'movies' && /^tt\d+$/.test(entry.id)) {
         for (const type of ['movie', 'series']) {
           const result = await fetchJSON(`https://v3-cinemeta.strem.io/meta/${type}/${entry.id}.json`);
-          found = safeURL(result?.meta?.poster);
-          if (found) break;
+          found.push(...metadataImageCandidates(result?.meta?.poster));
+          if (found.length) break;
         }
       } else if (kind === 'books') {
-        const shortTitle = entry.title.replace(/\s*\([^)]*\)\s*$/, '').split(':')[0];
-        const query = new URLSearchParams({ title: shortTitle, author: creator(entry), fields: 'title,author_name,cover_i', limit: '5' });
-        const result = await fetchJSON(`https://openlibrary.org/search.json?${query}`);
-        const surname = norm(creator(entry).split('&')[0]).split(' ').pop();
-        const match = (Array.isArray(result?.docs) ? result.docs : []).find(item =>
-          Number.isInteger(item.cover_i) && norm(text(item.title).split(':')[0]) === norm(shortTitle) &&
-          (!surname || (Array.isArray(item.author_name) && item.author_name.some(name => norm(name).split(' ').includes(surname)))));
-        if (match) found = `https://covers.openlibrary.org/b/id/${match.cover_i}-L.jpg?default=false`;
+        // Match the edition by ISBN before attempting a title/author search.
+        if (entry.isbn) {
+          const result = await fetchJSON(`https://www.googleapis.com/books/v1/volumes?q=isbn:${entry.isbn}&maxResults=5`);
+          const book = (Array.isArray(result?.items) ? result.items : []).find(item =>
+            Array.isArray(item.volumeInfo?.industryIdentifiers) && item.volumeInfo.industryIdentifiers.some(identifier =>
+              isbn13(text(identifier.identifier).replace(/-/g, '')) === isbn13(entry.isbn)));
+          const images = book?.volumeInfo?.imageLinks;
+          for (const field of ['extraLarge', 'large', 'medium', 'small', 'thumbnail', 'smallThumbnail']) {
+            found.push(...metadataImageCandidates(text(images?.[field]).replace(/^http:/, 'https:')));
+          }
+        }
+        // Keep an independent alternative when the ISBN catalogue has only a thumbnail.
+        {
+          const shortTitle = entry.title.replace(/\s*\([^)]*\)\s*$/, '').split(':')[0];
+          const query = new URLSearchParams({ title: shortTitle, author: creator(entry), fields: 'title,author_name,cover_i', limit: '5' });
+          const result = await fetchJSON(`https://openlibrary.org/search.json?${query}`);
+          const surname = norm(creator(entry).split('&')[0]).split(' ').pop();
+          const matches = (Array.isArray(result?.docs) ? result.docs : []).filter(item =>
+            Number.isInteger(item.cover_i) && norm(text(item.title).split(':')[0]) === norm(shortTitle) &&
+            (!surname || (Array.isArray(item.author_name) && item.author_name.some(name => norm(name).split(' ').includes(surname)))));
+          for (const match of matches) found.push(`https://covers.openlibrary.org/b/id/${match.cover_i}-L.jpg?default=false`);
+        }
       }
-      if (found) {
-        try { localStorage.setItem(key, JSON.stringify({ url: found, time: Date.now() })); }
+      const urls = [...new Set(found)];
+      if (urls.length) {
+        try { localStorage.setItem(key, JSON.stringify({ urls, time: Date.now() })); }
         catch { /* Optional cache. */ }
       }
-      return found;
+      return urls;
     });
     lookups.set(key, lookup);
     return lookup;
   }
 
+  function loadBookCover(image, node, entry, candidates) {
+    let target = image;
+    let best = null;
+    let attemptedLookup = false;
+    const attempted = new Set();
+
+    const tryNext = async () => {
+      let next = candidates.shift();
+      while (next && attempted.has(next)) next = candidates.shift();
+      if (next) { attempted.add(next); target.src = next; return; }
+      if (!attemptedLookup && node.isConnected) {
+        attemptedLookup = true;
+        const found = await resolveImage(entry, 'books');
+        if (node.isConnected) {
+          candidates.push(...(Array.isArray(found) ? found : []).filter(url => !attempted.has(url)));
+          if (candidates.length) { void tryNext(); return; }
+        }
+      }
+      // A modest real cover is better than discarding it for the text tile.
+      if (!best) image.remove();
+    };
+
+    const watch = candidate => {
+      candidate.addEventListener('load', () => {
+        if (candidate !== target) return;
+        const width = candidate.naturalWidth;
+        const height = candidate.naturalHeight;
+        // Exclude blank catalogue placeholders and unusably tiny thumbnails.
+        if (!Number.isFinite(width) || !Number.isFinite(height) || width < 100 || height < 150) {
+          void tryNext(); return;
+        }
+        const score = Math.min(width / 250, height / 375);
+        if (!best || score > best.score) {
+          best = { url: candidate.src, score };
+          if (candidate !== image) image.src = best.url;
+          image.classList.add('loaded');
+        }
+        if (meetsArtworkMinimum(entry, 'books', width, height)) return;
+        if (target === image) {
+          // Probe upgrades separately so the working cover stays visible.
+          target = el('img');
+          target.referrerPolicy = image.referrerPolicy;
+          watch(target);
+        }
+        void tryNext();
+      });
+      candidate.addEventListener('error', () => {
+        if (candidate === target) void tryNext();
+      });
+    };
+    watch(image);
+    if (candidates.length) void tryNext();
+    else queueMicrotask(() => { void tryNext(); });
+  }
+
   function cover(entry, kind) {
     const tone = Array.from(entry.id).reduce((sum, char) => sum + char.codePointAt(0), 0) % 6;
-    const node = el('div', `cover tone-${tone}${kind === 'bits' ? ' landscape' : ''}`);
+    const node = el('div', `cover tone-${tone}${['bits', 'music'].includes(kind) ? ' square' : ''}${entry.imageFit === 'contain' ? ' contain' : ''}`);
     node.setAttribute('aria-hidden', 'true');
     const fallback = el('div', 'fallback');
-    fallback.append(el('span', 'fallback-title', entry.title));
-    // Bits are deliberately title-only. The creator remains in the byline.
+    if (kind === 'bits') {
+      const icon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+      icon.setAttribute('viewBox', '0 0 64 64');
+      icon.setAttribute('fill', 'none');
+      icon.setAttribute('stroke', 'currentColor');
+      icon.setAttribute('stroke-width', '1.5');
+      const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+      path.setAttribute('d', 'M18 10h20l10 10v34H18zM38 10v12h10M25 32h16M25 39h16M25 46h10');
+      icon.append(path);
+      fallback.classList.add('article-fallback');
+      fallback.append(icon);
+    } else fallback.append(el('span', 'fallback-title', entry.title));
+    // Article titles and creators are already visible below their image.
     if (kind !== 'bits' && creator(entry)) fallback.append(el('span', 'fallback-author', creator(entry)));
     node.append(fallback);
     const candidates = imageCandidates(entry, kind);
@@ -221,31 +353,36 @@
     const image = el('img');
     image.alt = '';
     image.width = 400;
-    image.height = kind === 'bits' ? 250 : 600;
+    image.height = ['bits', 'music'].includes(kind) ? 400 : 600;
     image.loading = 'lazy';
     image.decoding = 'async';
     image.referrerPolicy = 'no-referrer';
-    const portrait = kind === 'games' ? safeURL(entry.portraitImage) : null;
+    if (kind === 'books') {
+      node.append(image);
+      loadBookCover(image, node, entry, candidates);
+      return node;
+    }
     let attemptedLookup = false;
+    const attempted = new Set();
     const tryNext = async () => {
       image.classList.remove('loaded');
-      const next = candidates.shift();
-      if (next) { image.src = next; return; }
+      let next = candidates.shift();
+      while (next && attempted.has(next)) next = candidates.shift();
+      if (next) { attempted.add(next); image.src = next; return; }
       if (!attemptedLookup && node.isConnected) {
         attemptedLookup = true;
         const found = await resolveImage(entry, kind);
-        if (found && node.isConnected && image.src !== found) { image.src = found; return; }
+        if (node.isConnected) {
+          candidates.push(...(Array.isArray(found) ? found : []).filter(url => !attempted.has(url)));
+          if (candidates.length) { void tryNext(); return; }
+        }
       }
       image.remove();
     };
     image.addEventListener('load', () => {
-      // A clean cover must not replace the original with a small or non-portrait image.
-      if (portrait && image.src === portrait &&
-          (image.naturalWidth < 600 || image.naturalHeight < 900 || image.naturalHeight <= image.naturalWidth)) {
+      if (!meetsArtworkMinimum(entry, kind, image.naturalWidth, image.naturalHeight)) {
         void tryNext(); return;
       }
-      // Open Library can return tiny placeholders instead of an HTTP error.
-      if (image.naturalWidth < 20 || image.naturalHeight < 20) { void tryNext(); return; }
       image.classList.add('loaded');
     });
     image.addEventListener('error', () => { void tryNext(); });
@@ -261,14 +398,14 @@
     item.dataset.entryId = entry.id;
     item.append(cover(entry, kind));
     const heading = el('h2', 'item-title');
-    const href = safeURL(entry.link);
-    if (kind === 'bits' && href) heading.append(externalLink(href, 'title-link', entry.title));
+    const href = safeURL(kind === 'music' && entry.spotifyId ? `https://open.spotify.com/album/${entry.spotifyId}` : entry.link);
+    if (['bits', 'music'].includes(kind) && href) heading.append(externalLink(href, 'title-link', entry.title));
     else heading.textContent = entry.title;
     item.append(heading);
     const byline = [creator(entry), Number.isInteger(entry.year) ? entry.year : ''].filter(Boolean).join(' · ');
     const meta = metadata(byline, entry.title, entry.note);
     if (meta) item.append(meta);
-    if (kind !== 'bits' && href) item.append(externalLink(href, 'entry-link', 'Open link'));
+    if (!['bits', 'music'].includes(kind) && href) item.append(externalLink(href, 'entry-link', 'Open link'));
     return item;
   }
 
@@ -303,8 +440,9 @@
     button.setAttribute('aria-haspopup', 'dialog');
     button.setAttribute('aria-controls', 'collection-dialog');
     button.setAttribute('aria-label', `Open ${collection.title}, ${members.length} ${noun(members.length, kind)}`);
-    const stack = el('div', `cover-stack${kind === 'bits' ? ' landscape' : ''}`);
+    const stack = el('div', `cover-stack${['bits', 'music'].includes(kind) ? ' square' : ''}`);
     stack.setAttribute('aria-hidden', 'true');
+    stack.dataset.layers = String(Math.min(members.length, 3));
     members.slice(0, 3).reverse().forEach((entry, index, layers) => {
       const layer = cover(entry, kind);
       layer.classList.add('stack-cover');
@@ -336,28 +474,62 @@
     return item;
   }
 
+  function groupKey(entry, kind) {
+    // Music has exactly one grouping criterion: the credited artist.
+    return kind === 'music' ? `music-artist-${norm(creator(entry))}` : entry.collectionId;
+  }
+
+  const alphabet = new Intl.Collator('en', { sensitivity: 'base', numeric: true });
+  function compareEntries(a, b) {
+    const datedA = Number.isInteger(a.year);
+    const datedB = Number.isInteger(b.year);
+    // Missing dates stay at the end in both directions.
+    if (datedA !== datedB) return datedA ? -1 : 1;
+    if (datedA && a.year !== b.year) return oldestFirst ? a.year - b.year : b.year - a.year;
+    return alphabet.compare(creator(a).trim(), creator(b).trim()) ||
+      alphabet.compare(a.title, b.title) || alphabet.compare(a.id, b.id);
+  }
+
   function render() {
     const entries = data[area];
     $('count').textContent = `${entries.length} ${noun(entries.length, area)}`;
+    const sortToggle = $('sort-toggle');
+    sortToggle.disabled = false;
+    sortToggle.setAttribute('aria-pressed', String(oldestFirst));
+    sortToggle.setAttribute('aria-label', oldestFirst ? 'Show newest first' : 'Show oldest first');
+    sortToggle.title = oldestFirst ? 'Oldest first · click for newest first' : 'Newest first · click for oldest first';
     content.replaceChildren();
     content.setAttribute('aria-busy', 'false');
     if (!entries.length) { content.append(el('p', 'empty', `No ${areas[area].toLowerCase()} yet.`)); return; }
     const groups = new Map();
     for (const entry of entries) {
-      if (!entry.collectionId) continue;
-      if (!groups.has(entry.collectionId)) groups.set(entry.collectionId, []);
-      groups.get(entry.collectionId).push(entry);
+      const key = groupKey(entry, area);
+      if (!key) continue;
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(entry);
     }
     const list = el('ul', 'grid');
     list.setAttribute('aria-label', areas[area]);
     const seen = new Set();
+    const items = [];
     for (const entry of entries) {
-      const members = groups.get(entry.collectionId);
-      if (!members || members.length < 2) { list.append(card(entry, area)); continue; }
-      if (seen.has(entry.collectionId)) continue;
-      seen.add(entry.collectionId);
-      members.sort((a, b) => (Number.isFinite(a.position) ? a.position : Infinity) - (Number.isFinite(b.position) ? b.position : Infinity));
-      list.append(collectionCard(collectionMetadata(members), members, area));
+      const key = groupKey(entry, area);
+      const members = groups.get(key);
+      if (!members || members.length < 2) { items.push({ entry }); continue; }
+      if (seen.has(key)) continue;
+      seen.add(key);
+      const collection = collectionMetadata(members);
+      if (area === 'music') { collection.id = key; collection.title = creator(members[0]); }
+      const years = members.map(member => member.year).filter(Number.isInteger);
+      const creators = [...new Set(members.map(creator).filter(Boolean))].sort(alphabet.compare);
+      items.push({ collection, members: [...members].sort(compareEntries), entry: {
+        id: collection.id, title: collection.title, creator: creators.join(', '),
+        year: years.length ? (oldestFirst ? Math.min(...years) : Math.max(...years)) : undefined
+      } });
+    }
+    items.sort((a, b) => compareEntries(a.entry, b.entry));
+    for (const item of items) {
+      list.append(item.collection ? collectionCard(item.collection, item.members, area) : card(item.entry, area));
     }
     content.append(list);
   }
@@ -368,6 +540,7 @@
     closeDialog(noteDialog);
     closeDialog(collectionDialog);
     area = Object.hasOwn(areas, hash) ? hash : 'books';
+    oldestFirst = false;
     document.body.dataset.area = area;
     $('area-title').textContent = areas[area];
     document.title = `${areas[area]} | My collection`;
@@ -385,12 +558,22 @@
       if (!entry || !text(entry.id).trim() || !text(entry.title).trim() || ids.has(entry.id)) throw Error(`Missing or duplicate id/title in ${name}.json`);
       if (entry.year !== undefined && !Number.isInteger(entry.year)) throw Error(`Invalid year for ${entry.id}`);
       if (entry.steamId !== undefined && (!Number.isSafeInteger(entry.steamId) || entry.steamId <= 0)) throw Error(`Invalid Steam id for ${entry.id}`);
+      if (entry.igdbCoverId !== undefined && !/^co[a-z0-9]+$/.test(text(entry.igdbCoverId))) throw Error(`Invalid IGDB cover id for ${entry.id}`);
+      if (entry.spotifyId !== undefined && !/^[A-Za-z0-9]{22}$/.test(text(entry.spotifyId))) throw Error(`Invalid Spotify id for ${entry.id}`);
+      if (name === 'music' && !norm(creator(entry))) throw Error(`Missing artist for ${entry.id}`);
       if (entry.note !== undefined && typeof entry.note !== 'string') throw Error(`Invalid note for ${entry.id}`);
+      if (entry.imageFallbacks !== undefined && (!Array.isArray(entry.imageFallbacks) || entry.imageFallbacks.some(url => !safeURL(url)))) throw Error(`Invalid image fallbacks for ${entry.id}`);
+      if (entry.imageFit !== undefined && !['cover', 'contain'].includes(entry.imageFit)) throw Error(`Invalid image fit for ${entry.id}`);
       ids.add(entry.id);
     }
     return entries;
   }
 
+  $('sort-toggle').addEventListener('click', () => {
+    if (!ready) return;
+    oldestFirst = !oldestFirst;
+    render();
+  });
   window.addEventListener('hashchange', () => { if (ready) navigate(); });
   Promise.all(Object.keys(areas).map(async name => {
     const response = await fetch(`data/${name}.json`);

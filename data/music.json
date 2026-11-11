@@ -1,0 +1,815 @@
+[
+  {
+    "id": "deftones-white-pony",
+    "title": "White Pony",
+    "creator": "Deftones",
+    "year": 2000,
+    "link": "https://open.spotify.com/album/5LEXck3kfixFaA3CqVE7bC",
+    "spotifyId": "5LEXck3kfixFaA3CqVE7bC",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735c53799f473fa3e1a48c00ed",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735c53799f473fa3e1a48c00ed"
+    ]
+  },
+  {
+    "id": "deftones-diamond-eyes",
+    "title": "Diamond Eyes",
+    "creator": "Deftones",
+    "year": 2010,
+    "link": "https://open.spotify.com/album/4T97r2arNiQLX82pUApZfq",
+    "spotifyId": "4T97r2arNiQLX82pUApZfq",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735b37a73489927b4d3dd1729b",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735b37a73489927b4d3dd1729b"
+    ]
+  },
+  {
+    "id": "deftones-koi-no-yokan",
+    "title": "Koi No Yokan",
+    "creator": "Deftones",
+    "year": 2012,
+    "link": "https://open.spotify.com/album/4PIVdqvL1Rc7T7Vfsr8n8Q",
+    "spotifyId": "4PIVdqvL1Rc7T7Vfsr8n8Q",
+    "image": "https://i.scdn.co/image/ab67616d0000b27373652b7a0dc388dd1d044b69",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27373652b7a0dc388dd1d044b69"
+    ]
+  },
+  {
+    "id": "linkin-park-hybrid-theory",
+    "title": "Hybrid Theory",
+    "creator": "Linkin Park",
+    "year": 2000,
+    "link": "https://open.spotify.com/album/2pKw6GERJVAD61449B1EEM",
+    "spotifyId": "2pKw6GERJVAD61449B1EEM",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736741ca6e9ba6fdc166037321",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736741ca6e9ba6fdc166037321"
+    ]
+  },
+  {
+    "id": "linkin-park-meteora",
+    "title": "Meteora",
+    "creator": "Linkin Park",
+    "year": 2003,
+    "link": "https://open.spotify.com/album/4Gfnly5CzMJQqkUFfoHaP3",
+    "spotifyId": "4Gfnly5CzMJQqkUFfoHaP3",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735f1f51d14e8bea89484ecd1b",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735f1f51d14e8bea89484ecd1b"
+    ]
+  },
+  {
+    "id": "spiritbox-tsunami-sea",
+    "title": "Tsunami Sea",
+    "creator": "Spiritbox",
+    "year": 2025,
+    "link": "https://open.spotify.com/album/79sg58t1vRpcxudpP9uPtg",
+    "spotifyId": "79sg58t1vRpcxudpP9uPtg",
+    "image": "https://i.scdn.co/image/ab67616d0000b273ca5c3280d995a78c34bdf210",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273ca5c3280d995a78c34bdf210"
+    ]
+  },
+  {
+    "id": "president-blood-of-your-empire",
+    "title": "Blood Of Your Empire",
+    "creator": "PRESIDENT",
+    "year": 2026,
+    "link": "https://open.spotify.com/album/4RZYD8Q0pCPCs2cuW4CK4k",
+    "spotifyId": "4RZYD8Q0pCPCs2cuW4CK4k",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c02429c15cdba5c68d912efa",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c02429c15cdba5c68d912efa"
+    ]
+  },
+  {
+    "id": "sleep-token-take-me-back-to-eden",
+    "title": "Take Me Back To Eden",
+    "creator": "Sleep Token",
+    "year": 2023,
+    "link": "https://open.spotify.com/album/1gjugH97doz3HktiEjx2vY",
+    "spotifyId": "1gjugH97doz3HktiEjx2vY",
+    "image": "https://i.scdn.co/image/ab67616d0000b2730b73608b678f169d3c8f35f0",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2730b73608b678f169d3c8f35f0"
+    ]
+  },
+  {
+    "id": "poppy-negative-spaces",
+    "title": "Negative Spaces",
+    "creator": "Poppy",
+    "year": 2024,
+    "link": "https://open.spotify.com/album/0YIOpXQvcbiDNPusSqi5Ew",
+    "spotifyId": "0YIOpXQvcbiDNPusSqi5Ew",
+    "image": "https://m.media-amazon.com/images/I/41WnzoBC2eL.jpg",
+    "imageFallbacks": [
+      "https://imusic.b-cdn.net/images/item/original/405/0198704149405.jpg?class=scaled&poppy-2024-negative-spaces-cd=&v=1737622656",
+      "https://coverartarchive.org/release/614c2733-08c2-4111-a4a2-a821d32fb665/front-1200",
+      "https://coverartarchive.org/release/614c2733-08c2-4111-a4a2-a821d32fb665/front-500"
+    ]
+  },
+  {
+    "id": "hadouken-every-weekend",
+    "title": "Every Weekend",
+    "creator": "Hadouken!",
+    "year": 2013,
+    "link": "https://open.spotify.com/album/3ul6gYrvtXN7IPhi81tYS9",
+    "spotifyId": "3ul6gYrvtXN7IPhi81tYS9",
+    "image": "https://i.scdn.co/image/ab67616d0000b273170d6ee71a3d38c7d336eb27",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273170d6ee71a3d38c7d336eb27"
+    ]
+  },
+  {
+    "id": "breakkaway-it-all-feels-the-same-from-afar",
+    "title": "It all feels the same from afar",
+    "creator": "breakkaway",
+    "year": 2026,
+    "link": "https://open.spotify.com/search/breakkaway%20It%20all%20feels%20the%20same%20from%20afar",
+    "image": "https://images.squarespace-cdn.com/content/v1/6434f17539c8e4264ed94083/03806e98-a5b4-4908-bb3b-ca04b99356b5/EP%2BFINAL.jpg",
+    "imageFallbacks": [
+      "https://releasewavedotcom.s3.us-west-2.amazonaws.com/releases/it-all-feels-the-same-from-afar/b869c055-full.jpg"
+    ]
+  },
+  {
+    "id": "bilmuri-400lb-back-squat",
+    "title": "400Lb Back Squat",
+    "creator": "Bilmuri",
+    "year": 2021,
+    "link": "https://open.spotify.com/album/2CBPZfz4khCDun4SN2Q71r",
+    "spotifyId": "2CBPZfz4khCDun4SN2Q71r",
+    "image": "https://i.scdn.co/image/ab67616d0000b273cb34668ec70439b52bc1edb5",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273cb34668ec70439b52bc1edb5"
+    ]
+  },
+  {
+    "id": "bilmuri-goblin-hours",
+    "title": "Goblin Hours",
+    "creator": "Bilmuri",
+    "year": 2022,
+    "link": "https://open.spotify.com/album/30UemsVcLiHlHu1MQrENKs",
+    "spotifyId": "30UemsVcLiHlHu1MQrENKs",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735570f1acb00c2af7367bb605",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735570f1acb00c2af7367bb605"
+    ]
+  },
+  {
+    "id": "bilmuri-kinda-hard",
+    "title": "KINDA HARD",
+    "creator": "Bilmuri",
+    "year": 2026,
+    "link": "https://open.spotify.com/album/6bJif35DxJzpXob5HfMzqU",
+    "spotifyId": "6bJif35DxJzpXob5HfMzqU",
+    "image": "https://m.media-amazon.com/images/I/51qFdJL5jkL.jpg",
+    "imageFallbacks": [
+      "https://filmnadvd.b-cdn.net/PICTURES/bilmuri-kinda-hard-coloured-transparent-vinyl-vinyl-lp-199584204918.webp?height=598"
+    ]
+  },
+  {
+    "id": "crosses-permanent-radiant",
+    "title": "PERMANENT.RADIANT",
+    "creator": "Crosses",
+    "year": 2022,
+    "link": "https://open.spotify.com/album/0ed3rpztAl3N3swyRLwn0C",
+    "spotifyId": "0ed3rpztAl3N3swyRLwn0C",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d2d1c224ad64519637f8a9d6",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d2d1c224ad64519637f8a9d6"
+    ]
+  },
+  {
+    "id": "the-menzingers-on-the-impossible-past",
+    "title": "On the Impossible Past",
+    "creator": "The Menzingers",
+    "year": 2012,
+    "link": "https://open.spotify.com/album/4Jh3PDPicP3QwWpktQS7Yh",
+    "spotifyId": "4Jh3PDPicP3QwWpktQS7Yh",
+    "image": "https://specialistsubjectrecords.co.uk/cdn/shop/products/the-menzingers-on-the-impossible-past-lp-vinyl-829266.jpg?v=1644454252",
+    "imageFallbacks": [
+      "https://coverartarchive.org/release/faf642a5-2870-4653-90ca-0036c22f32c7/front-1200",
+      "https://coverartarchive.org/release/faf642a5-2870-4653-90ca-0036c22f32c7/front-500"
+    ]
+  },
+  {
+    "id": "san-holo-bb-u-ok",
+    "title": "bb u ok?",
+    "creator": "San Holo",
+    "year": 2021,
+    "link": "https://open.spotify.com/album/046wH7DEfUumC5h9ykIEkd",
+    "spotifyId": "046wH7DEfUumC5h9ykIEkd",
+    "image": "https://f4.bcbits.com/img/a1298425298_10.jpg",
+    "imageFallbacks": [
+      "https://www.therecordhub.com/cdn/shop/products/SANHOLOBBUOK_1024x1024.png?v=1620702045"
+    ]
+  },
+  {
+    "id": "porter-robinson-worlds",
+    "title": "Worlds",
+    "creator": "Porter Robinson",
+    "year": 2014,
+    "link": "https://open.spotify.com/album/7AJPV0L05IyIBid97AvwVD",
+    "spotifyId": "7AJPV0L05IyIBid97AvwVD",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731f675e7b8bae408653346dd9",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731f675e7b8bae408653346dd9"
+    ]
+  },
+  {
+    "id": "porter-robinson-nurture",
+    "title": "Nurture",
+    "creator": "Porter Robinson",
+    "year": 2021,
+    "link": "https://open.spotify.com/album/4Hjqdhj5rh816i1dfcUEaM",
+    "spotifyId": "4Hjqdhj5rh816i1dfcUEaM",
+    "image": "https://i.scdn.co/image/ab67616d0000b2737d6ac8b4a84ad4b342050d87",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2737d6ac8b4a84ad4b342050d87"
+    ]
+  },
+  {
+    "id": "ninajirachi-i-love-my-computer",
+    "title": "I Love My Computer",
+    "creator": "Ninajirachi",
+    "year": 2025,
+    "link": "https://open.spotify.com/album/77CZUF57sYqgtznUe3OikQ",
+    "spotifyId": "77CZUF57sYqgtznUe3OikQ",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733b9b742c5c525af6e6767d87",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733b9b742c5c525af6e6767d87"
+    ]
+  },
+  {
+    "id": "hilary-duff-luck-or-something",
+    "title": "luck... or something",
+    "creator": "Hilary Duff",
+    "year": 2026,
+    "link": "https://open.spotify.com/album/71t4M602DGtkhsy1RtNAME",
+    "spotifyId": "71t4M602DGtkhsy1RtNAME",
+    "image": "https://i.scdn.co/image/ab67616d0000b2733618fe55bdf2c6c496e0e529",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2733618fe55bdf2c6c496e0e529"
+    ]
+  },
+  {
+    "id": "nello-taver-ho-ucciso-l-hip-hop-italiano",
+    "title": "Ho ucciso l'hip hop italiano",
+    "creator": "Nello Taver",
+    "year": 2022,
+    "link": "https://open.spotify.com/album/0GAfssfM9kJkIPrbeHotxy",
+    "spotifyId": "0GAfssfM9kJkIPrbeHotxy",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735ad5f42f0197003eda3634ab",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735ad5f42f0197003eda3634ab"
+    ]
+  },
+  {
+    "id": "bello-figo-trombo-a-facolta",
+    "title": "Trombo a facoltà",
+    "creator": "Bello Figo",
+    "year": 2019,
+    "link": "https://open.spotify.com/album/4UX9jpGhKs3PajUd7kAiBm",
+    "spotifyId": "4UX9jpGhKs3PajUd7kAiBm",
+    "image": "https://i.scdn.co/image/ab67616d0000b27350d45eabe2e47aba727c2a64",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27350d45eabe2e47aba727c2a64"
+    ]
+  },
+  {
+    "id": "pippo-sowlo-ok-computer-pero-trap",
+    "title": "Ok Computer Però Trap",
+    "creator": "Pippo Sowlo",
+    "year": 2019,
+    "link": "https://open.spotify.com/album/2IY8gjwH7OxJotoVySxXDl",
+    "spotifyId": "2IY8gjwH7OxJotoVySxXDl",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736f30ff9c22b0445a7f85e82c",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736f30ff9c22b0445a7f85e82c"
+    ]
+  },
+  {
+    "id": "pippo-sowlo-la-fine-della-naspi",
+    "title": "La fine della Naspi",
+    "creator": "Pippo Sowlo",
+    "year": 2026,
+    "link": "https://open.spotify.com/album/0zlCBa9IHIe4iMX2M1ffVd",
+    "spotifyId": "0zlCBa9IHIe4iMX2M1ffVd",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736e4a8759a8aff9424022a23c",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2736e4a8759a8aff9424022a23c",
+      "https://www.lerane.net/wp-content/uploads/2026/05/ab67616d0000b2736e4a8759a8aff9424022a23c.jpg",
+      "https://m.media-amazon.com/images/I/41AMuFERkyL.jpg"
+    ]
+  },
+  {
+    "id": "blink-182-enema-of-the-state",
+    "title": "Enema of the State",
+    "creator": "blink-182",
+    "year": 1999,
+    "link": "https://open.spotify.com/album/652N05EcNH1a4bIlUixQE2",
+    "spotifyId": "652N05EcNH1a4bIlUixQE2",
+    "image": "https://a2.cdn.hhv.de/items/images/generated/970x970/00979/979238/1-blink-182-enema-of-the-state.webp",
+    "imageFallbacks": [
+      "https://coverartarchive.org/release/07045f16-2e83-4fc2-a21a-d9bfaded00c2/front-1200",
+      "https://coverartarchive.org/release/07045f16-2e83-4fc2-a21a-d9bfaded00c2/front-500"
+    ]
+  },
+  {
+    "id": "blink-182-take-off-your-pants-and-jacket",
+    "title": "Take Off Your Pants and Jacket",
+    "creator": "blink-182",
+    "year": 2001,
+    "link": "https://open.spotify.com/album/0yDQmd4GRGo2sEW6kdL3Gf",
+    "spotifyId": "0yDQmd4GRGo2sEW6kdL3Gf",
+    "image": "https://i.scdn.co/image/ab67616d0000b27357eb782e357138bafa80852b",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27357eb782e357138bafa80852b"
+    ]
+  },
+  {
+    "id": "sum-41-all-killer-no-filler",
+    "title": "All Killer, No Filler",
+    "creator": "Sum 41",
+    "year": 2001,
+    "link": "https://open.spotify.com/album/2UCWsnmZEVg9HhnMeKTsim",
+    "spotifyId": "2UCWsnmZEVg9HhnMeKTsim",
+    "image": "https://i.scdn.co/image/ab67616d0000b2739a482180e6a306229bff49dc",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2739a482180e6a306229bff49dc"
+    ]
+  },
+  {
+    "id": "sum-41-chuck",
+    "title": "Chuck",
+    "creator": "Sum 41",
+    "year": 2004,
+    "link": "https://open.spotify.com/album/2wZ9kVoR4koXkgBI42u2FO",
+    "spotifyId": "2wZ9kVoR4koXkgBI42u2FO",
+    "image": "https://i.scdn.co/image/ab67616d0000b273bb263c5c73c34bd388a36c6b",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bb263c5c73c34bd388a36c6b"
+    ]
+  },
+  {
+    "id": "charli-xcx-pop-2",
+    "title": "Pop 2",
+    "creator": "Charli xcx",
+    "year": 2017,
+    "link": "https://open.spotify.com/album/2HIwUmdxEl7SeWa1ndH5wC",
+    "spotifyId": "2HIwUmdxEl7SeWa1ndH5wC",
+    "image": "https://i.scdn.co/image/ab67616d0000b273da30209ea35caf1d46931818",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273da30209ea35caf1d46931818"
+    ]
+  },
+  {
+    "id": "charli-xcx-charli",
+    "title": "Charli",
+    "creator": "Charli xcx",
+    "year": 2019,
+    "link": "https://open.spotify.com/album/386IqvSuljaZsMjwDGGdLj",
+    "spotifyId": "386IqvSuljaZsMjwDGGdLj",
+    "image": "https://soundium.com/cdn/shop/files/image_2437b2db-0beb-485d-b5a0-d7afe37fbf5f.webp?v=1768387405&width=1946",
+    "imageFallbacks": [
+      "https://coverartarchive.org/release/77ae7626-9239-4804-9b1a-eb442d5438b3/front-1200",
+      "https://coverartarchive.org/release/77ae7626-9239-4804-9b1a-eb442d5438b3/front-500"
+    ]
+  },
+  {
+    "id": "charli-xcx-how-i-m-feeling-now",
+    "title": "how i'm feeling now",
+    "creator": "Charli xcx",
+    "year": 2020,
+    "link": "https://open.spotify.com/album/3a9qH2VEsSiOZvMrjaS0Nu",
+    "spotifyId": "3a9qH2VEsSiOZvMrjaS0Nu",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735b8ef3c9b30d307df5245bfa",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735b8ef3c9b30d307df5245bfa"
+    ]
+  },
+  {
+    "id": "taylor-swift-folklore",
+    "title": "folklore",
+    "creator": "Taylor Swift",
+    "year": 2020,
+    "link": "https://open.spotify.com/album/2fenSS68JI1h4Fo296JfGr",
+    "spotifyId": "2fenSS68JI1h4Fo296JfGr",
+    "image": "https://i.scdn.co/image/ab67616d0000b27395f754318336a07e85ec59bc",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27395f754318336a07e85ec59bc"
+    ]
+  },
+  {
+    "id": "taylor-swift-midnights",
+    "title": "Midnights",
+    "creator": "Taylor Swift",
+    "year": 2022,
+    "link": "https://open.spotify.com/album/151w1FgRZfnKZA9FEcg9Z3",
+    "spotifyId": "151w1FgRZfnKZA9FEcg9Z3",
+    "image": "https://i.scdn.co/image/ab67616d0000b273bb54dde68cd23e2a268ae0f5",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273bb54dde68cd23e2a268ae0f5"
+    ]
+  },
+  {
+    "id": "rina-sawayama-sawayama",
+    "title": "SAWAYAMA",
+    "creator": "Rina Sawayama",
+    "year": 2020,
+    "link": "https://open.spotify.com/album/7IJE5DT48h9M7eiUMUGKq4",
+    "spotifyId": "7IJE5DT48h9M7eiUMUGKq4",
+    "image": "https://i.scdn.co/image/ab67616d0000b273d45ec625186030e62d5c14b4",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273d45ec625186030e62d5c14b4"
+    ]
+  },
+  {
+    "id": "murubutu-tenebra-e-la-notte-e-altri-racconti-di-buio-e-crepuscoli",
+    "title": "Tenebra è la notte e altri racconti di buio e crepuscoli",
+    "creator": "Murubutu",
+    "year": 2019,
+    "link": "https://open.spotify.com/album/1KasGIvIUzh4NsNpaJM4MW",
+    "spotifyId": "1KasGIvIUzh4NsNpaJM4MW",
+    "image": "https://i.scdn.co/image/ab67616d0000b273168717e8446573c8ff4b3950",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273168717e8446573c8ff4b3950"
+    ]
+  },
+  {
+    "id": "murubutu-l-uomo-che-viaggiava-nel-vento-e-altri-racconti-di-brezze-e-correnti",
+    "title": "L'uomo che viaggiava nel vento (e altri racconti di brezze e correnti)",
+    "creator": "Murubutu",
+    "year": 2016,
+    "link": "https://open.spotify.com/search/Murubutu%20L%27uomo%20che%20viaggiava%20nel%20vento%20%28e%20altri%20racconti%20di%20brezze%20e%20correnti%29",
+    "image": "https://f4.bcbits.com/img/a2546560566_10.jpg"
+  },
+  {
+    "id": "verdena-verdena",
+    "title": "Verdena",
+    "creator": "Verdena",
+    "year": 1999,
+    "link": "https://open.spotify.com/album/1GvHRyMV8Kk69XwlNUwkXR",
+    "spotifyId": "1GvHRyMV8Kk69XwlNUwkXR",
+    "image": "https://shop.universalmusic.it/cdn/shop/products/Verdena-Verdena-02.jpg?v=1665417617&width=1024"
+  },
+  {
+    "id": "anathema-we-re-here-because-we-re-here",
+    "title": "We're Here Because We're Here",
+    "creator": "Anathema",
+    "year": 2010,
+    "link": "https://open.spotify.com/album/2rCzLn7yA03XSOgoRdqQYC",
+    "spotifyId": "2rCzLn7yA03XSOgoRdqQYC",
+    "image": "https://i.scdn.co/image/ab67616d0000b273e96439ff310a4c2ab01de5c0",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273e96439ff310a4c2ab01de5c0"
+    ]
+  },
+  {
+    "id": "london-grammar-if-you-wait",
+    "title": "If You Wait",
+    "creator": "London Grammar",
+    "year": 2013,
+    "link": "https://open.spotify.com/album/0pMzRUC8E529jeJuWOc0J3",
+    "spotifyId": "0pMzRUC8E529jeJuWOc0J3",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fc44f29c2985a7107823a23d",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fc44f29c2985a7107823a23d"
+    ]
+  },
+  {
+    "id": "beach-house-bloom",
+    "title": "Bloom",
+    "creator": "Beach House",
+    "year": 2012,
+    "link": "https://open.spotify.com/album/600BVck2XflTAsEo0KhIfm",
+    "spotifyId": "600BVck2XflTAsEo0KhIfm",
+    "image": "https://i.scdn.co/image/ab67616d0000b273fab2fadd4f2b3e54f8bfbc26",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273fab2fadd4f2b3e54f8bfbc26"
+    ]
+  },
+  {
+    "id": "arcade-fire-funeral",
+    "title": "Funeral",
+    "creator": "Arcade Fire",
+    "year": 2004,
+    "link": "https://open.spotify.com/album/0Lu28wC62eXM4kr8DfUIKc",
+    "spotifyId": "0Lu28wC62eXM4kr8DfUIKc",
+    "image": "https://i.scdn.co/image/ab67616d0000b2735289d8e2055b315780512108",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2735289d8e2055b315780512108"
+    ]
+  },
+  {
+    "id": "chvrches-the-bones-of-what-you-believe",
+    "title": "The Bones of What You Believe",
+    "creator": "CHVRCHES",
+    "year": 2013,
+    "link": "https://open.spotify.com/album/3c1JDmgLbqVAiOcbMxqddk",
+    "spotifyId": "3c1JDmgLbqVAiOcbMxqddk",
+    "image": "https://imgix.bustle.com/wmag/2016/12/16/5853d42a57dfc3b0230f9906_chvurches-the-bones-of-what-you-believe-cover.jpg",
+    "imageFallbacks": [
+      "https://coverartarchive.org/release/cac2fc42-25ce-4021-8030-39401f2563cf/front-1200",
+      "https://coverartarchive.org/release/cac2fc42-25ce-4021-8030-39401f2563cf/front-500"
+    ]
+  },
+  {
+    "id": "my-bloody-valentine-loveless",
+    "title": "loveless",
+    "creator": "my bloody valentine",
+    "year": 1991,
+    "link": "https://open.spotify.com/album/3USQKOw0se5pBNEndu82Rb",
+    "spotifyId": "3USQKOw0se5pBNEndu82Rb",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c3e9c9fed4906712461a35ac",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c3e9c9fed4906712461a35ac"
+    ]
+  },
+  {
+    "id": "u2-all-that-you-can-t-leave-behind",
+    "title": "All That You Can't Leave Behind",
+    "creator": "U2",
+    "year": 2000,
+    "link": "https://open.spotify.com/album/7gskILm9UyDvFlmmAoqn2g",
+    "spotifyId": "7gskILm9UyDvFlmmAoqn2g",
+    "image": "https://www.irishtimes.com/resizer/v2/RXHNQCJGOQHE6RLEK5Q25377YA.jpg?auth=ed03139fae9aaa5bdb0c2f7edce277dc9ce8ee3f1f77bfc4ba7ccf8791ad3ef8&height=1600&smart=true&width=1600",
+    "imageFallbacks": [
+      "https://coverartarchive.org/release/fa3ba0e5-93c9-3dd6-b682-aff390ba5868/front-1200",
+      "https://coverartarchive.org/release/fa3ba0e5-93c9-3dd6-b682-aff390ba5868/front-500"
+    ]
+  },
+  {
+    "id": "maybeshewill-fair-youth",
+    "title": "Fair Youth",
+    "creator": "Maybeshewill",
+    "year": 2014,
+    "link": "https://open.spotify.com/album/59cst3IGDjIGjXYX0WGONI",
+    "spotifyId": "59cst3IGDjIGjXYX0WGONI",
+    "image": "https://a1.cdn.hhv.de/items/images/generated/475x475/01108/1108825/1-maybeshewill-fair-youth-10th-anniversary-remix-and-remaster.webp"
+  },
+  {
+    "id": "i-cani-il-sorprendente-album-d-esordio-de-i-cani",
+    "title": "Il sorprendente album d'esordio de I Cani",
+    "creator": "i cani",
+    "year": 2011,
+    "link": "https://open.spotify.com/album/19uO0abnLdyCekrDiAE2wD",
+    "spotifyId": "19uO0abnLdyCekrDiAE2wD",
+    "image": "https://m.media-amazon.com/images/I/51X4ijimKmL.jpg",
+    "imageFallbacks": [
+      "https://www.rollingstone.it/wp-content/uploads/2021/06/il-sorprendente-album-desordio-de-i-cani.jpg"
+    ]
+  },
+  {
+    "id": "i-cani-glamour",
+    "title": "Glamour",
+    "creator": "i cani",
+    "year": 2013,
+    "link": "https://open.spotify.com/album/0f0KObbaX3ZKk3HYJak2we",
+    "spotifyId": "0f0KObbaX3ZKk3HYJak2we",
+    "image": "https://m.media-amazon.com/images/I/51V3AInM9cL.jpg",
+    "imageFallbacks": [
+      "https://coverartarchive.org/release/67c0bbc8-a78c-409e-8eb8-7d05c6016f0d/front-1200",
+      "https://coverartarchive.org/release/67c0bbc8-a78c-409e-8eb8-7d05c6016f0d/front-500"
+    ]
+  },
+  {
+    "id": "yaeji-what-we-drew",
+    "title": "WHAT WE DREW 우리가 그려왔던",
+    "creator": "Yaeji",
+    "year": 2020,
+    "link": "https://open.spotify.com/album/2WCnWcLzQj6nXIdJNeVUjM",
+    "spotifyId": "2WCnWcLzQj6nXIdJNeVUjM",
+    "image": "https://media.pitchfork.com/photos/5e67c5844c06390008485edc/master/pass/whatwedrw.jpg"
+  },
+  {
+    "id": "explosions-in-the-sky-the-earth-is-not-a-cold-dead-place",
+    "title": "The Earth Is Not a Cold Dead Place",
+    "creator": "Explosions In the Sky",
+    "year": 2003,
+    "link": "https://open.spotify.com/album/4ENmFqXRtBpigsdIhSuNJL",
+    "spotifyId": "4ENmFqXRtBpigsdIhSuNJL",
+    "image": "https://i.scdn.co/image/ab67616d0000b27339539a503a4d0f1940f6d97e",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27339539a503a4d0f1940f6d97e"
+    ]
+  },
+  {
+    "id": "system-of-a-down-toxicity",
+    "title": "Toxicity",
+    "creator": "System Of A Down",
+    "year": 2001,
+    "link": "https://open.spotify.com/album/6jWde94ln40epKIQCd8XUh",
+    "spotifyId": "6jWde94ln40epKIQCd8XUh",
+    "image": "https://media.guitarcenter.com/is/image/MMGS7/L46113000000000-00-600x600.jpg"
+  },
+  {
+    "id": "system-of-a-down-mezmerize",
+    "title": "Mezmerize",
+    "creator": "System Of A Down",
+    "year": 2005,
+    "link": "https://open.spotify.com/album/0cn6MHyx4YuZauaB7Pb66o",
+    "spotifyId": "0cn6MHyx4YuZauaB7Pb66o",
+    "image": "https://i.scdn.co/image/ab67616d0000b273c65f8d04502eeddbdd61fa71",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273c65f8d04502eeddbdd61fa71"
+    ]
+  },
+  {
+    "id": "system-of-a-down-hypnotize",
+    "title": "Hypnotize",
+    "creator": "System Of A Down",
+    "year": 2005,
+    "link": "https://open.spotify.com/album/3T0iEi5WFKzbsq14V9wYCK",
+    "spotifyId": "3T0iEi5WFKzbsq14V9wYCK",
+    "image": "https://i.scdn.co/image/ab67616d0000b27371f666344128936b6ac375a0",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b27371f666344128936b6ac375a0"
+    ]
+  },
+  {
+    "id": "flor-come-out-you-re-hiding",
+    "title": "come out. you're hiding",
+    "creator": "flor",
+    "year": 2017,
+    "link": "https://open.spotify.com/album/3PZRrrwPzADgXEFYkw804F",
+    "spotifyId": "3PZRrrwPzADgXEFYkw804F",
+    "image": "https://i.scdn.co/image/ab67616d0000b273b7f72643bf8a029abeacc5dd",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273b7f72643bf8a029abeacc5dd"
+    ]
+  },
+  {
+    "id": "coldplay-a-rush-of-blood-to-the-head",
+    "title": "A Rush of Blood to the Head",
+    "creator": "Coldplay",
+    "year": 2002,
+    "link": "https://open.spotify.com/album/0RHX9XECH8IVI3LNgWDpmQ",
+    "spotifyId": "0RHX9XECH8IVI3LNgWDpmQ",
+    "image": "https://i.scdn.co/image/ab67616d0000b273de09e02aa7febf30b7c02d82",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273de09e02aa7febf30b7c02d82"
+    ]
+  },
+  {
+    "id": "65daysofstatic-we-were-exploding-anyway",
+    "title": "We Were Exploding Anyway",
+    "creator": "65daysofstatic",
+    "year": 2010,
+    "link": "https://open.spotify.com/album/0QFxVcmghKylwoFT6xozzF",
+    "spotifyId": "0QFxVcmghKylwoFT6xozzF",
+    "image": "https://i.scdn.co/image/ab67616d0000b273cdff9c4490d21583ef8fba22",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273cdff9c4490d21583ef8fba22"
+    ]
+  },
+  {
+    "id": "celldweller-wish-upon-a-blackstar",
+    "title": "Wish Upon a Blackstar",
+    "creator": "Celldweller",
+    "year": 2012,
+    "link": "https://open.spotify.com/album/02tbYtfsdCepCjJgojsChL",
+    "spotifyId": "02tbYtfsdCepCjJgojsChL",
+    "image": "https://f4.bcbits.com/img/a2788830457_10.jpg"
+  },
+  {
+    "id": "placebo-meds",
+    "title": "Meds",
+    "creator": "Placebo",
+    "year": 2006,
+    "link": "https://open.spotify.com/album/2ycbtOQTYJJcduM21w8zY8",
+    "spotifyId": "2ycbtOQTYJJcduM21w8zY8",
+    "image": "https://images.fanart.tv/fanart/meds-5f3be2d05ea7f.jpg",
+    "imageFallbacks": [
+      "https://coverartarchive.org/release/3d84c4ab-a433-4d86-8991-d9e4773b3329/front-1200",
+      "https://coverartarchive.org/release/3d84c4ab-a433-4d86-8991-d9e4773b3329/front-500"
+    ]
+  },
+  {
+    "id": "alt-j-an-awesome-wave",
+    "title": "An Awesome Wave",
+    "creator": "alt-J",
+    "year": 2012,
+    "link": "https://open.spotify.com/album/6HbJlAnTRhWae1F3lEwGkv",
+    "spotifyId": "6HbJlAnTRhWae1F3lEwGkv",
+    "image": "https://i.scdn.co/image/ab67616d0000b2731e1ca90cd8fdbb0ac890a926",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2731e1ca90cd8fdbb0ac890a926"
+    ]
+  },
+  {
+    "id": "sleep-token-sundowning",
+    "title": "Sundowning",
+    "creator": "Sleep Token",
+    "year": 2019,
+    "link": "https://open.spotify.com/album/5XWsBMTe4JPtH4qmvYUm86",
+    "spotifyId": "5XWsBMTe4JPtH4qmvYUm86",
+    "image": "https://i.scdn.co/image/ab67616d0000b273003381f0f8b9eb37a06eeb3f",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273003381f0f8b9eb37a06eeb3f"
+    ]
+  },
+  {
+    "id": "sleep-token-even-in-arcadia",
+    "title": "Even In Arcadia",
+    "creator": "Sleep Token",
+    "year": 2025,
+    "link": "https://open.spotify.com/album/1lS7FeRcSUuIGqyg99UGpj",
+    "spotifyId": "1lS7FeRcSUuIGqyg99UGpj",
+    "image": "https://i.scdn.co/image/ab67616d0000b273882265cd9bdded9ea9a153b9",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273882265cd9bdded9ea9a153b9"
+    ]
+  },
+  {
+    "id": "hadouken-for-the-masses",
+    "title": "For the Masses",
+    "creator": "Hadouken!",
+    "year": 2010,
+    "link": "https://open.spotify.com/album/4Lz3jpFBkzf4ABBmWEuaCI",
+    "spotifyId": "4Lz3jpFBkzf4ABBmWEuaCI",
+    "image": "https://i.scdn.co/image/ab67616d0000b2734b1da55cccf76eac3db9d357",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b2734b1da55cccf76eac3db9d357"
+    ]
+  },
+  {
+    "id": "royal-blood-royal-blood",
+    "title": "Royal Blood",
+    "creator": "Royal Blood",
+    "year": 2014,
+    "link": "https://open.spotify.com/album/7DJijwZ2wqJrgLpcRMxs3G",
+    "spotifyId": "7DJijwZ2wqJrgLpcRMxs3G",
+    "image": "https://m.media-amazon.com/images/I/51T%2BCz1-PWL.jpg",
+    "imageFallbacks": [
+      "https://coverartarchive.org/release/eacb618d-9f5e-4b07-8e45-1453dd83b333/front-1200",
+      "https://www.debaser.it/resize.aspx?path=%2Ffiles%2F2014%2F41765.jpg",
+      "https://coverartarchive.org/release/eacb618d-9f5e-4b07-8e45-1453dd83b333/front-500"
+    ]
+  },
+  {
+    "id": "royal-blood-how-did-we-get-so-dark",
+    "title": "How Did We Get So Dark?",
+    "creator": "Royal Blood",
+    "year": 2017,
+    "link": "https://open.spotify.com/album/3Rz6kF8eGqrDOEteo5YsBj",
+    "spotifyId": "3Rz6kF8eGqrDOEteo5YsBj",
+    "image": "https://royalbloodband.com/cdn/shop/products/HowdidwegetsodarkVinyl_grande.png?v=1644334795",
+    "imageFallbacks": [
+      "https://coverartarchive.org/release/6582a26f-3a57-46dd-80c7-db6e26ae0a6d/front-1200",
+      "https://coverartarchive.org/release/6582a26f-3a57-46dd-80c7-db6e26ae0a6d/front-500"
+    ]
+  },
+  {
+    "id": "porcupine-tree-in-absentia",
+    "title": "In Absentia",
+    "creator": "Porcupine Tree",
+    "year": 2002,
+    "link": "https://open.spotify.com/album/2dAYkfqPYzOTDNxDDVP2vi",
+    "spotifyId": "2dAYkfqPYzOTDNxDDVP2vi",
+    "image": "https://cdn.cspt.io/porcupinetree.com/uploads/2021/01/01111546/inabsentia.jpg",
+    "imageFallbacks": [
+      "https://coverartarchive.org/release/d56a7b0f-e67b-48fe-b779-11ab07cfd2e4/front-1200",
+      "https://coverartarchive.org/release/d56a7b0f-e67b-48fe-b779-11ab07cfd2e4/front-500"
+    ]
+  },
+  {
+    "id": "porcupine-tree-deadwing",
+    "title": "Deadwing",
+    "creator": "Porcupine Tree",
+    "year": 2005,
+    "link": "https://open.spotify.com/album/4gGjMpqUDO8UIS3N9UrbUa",
+    "spotifyId": "4gGjMpqUDO8UIS3N9UrbUa",
+    "image": "https://cdn.cspt.io/porcupinetree.com/uploads/2021/01/01111559/deadwing.jpg",
+    "imageFallbacks": [
+      "https://coverartarchive.org/release/c2ab8804-5f77-4b35-8038-4850c39470d8/front-1200",
+      "https://coverartarchive.org/release/c2ab8804-5f77-4b35-8038-4850c39470d8/front-500"
+    ]
+  },
+  {
+    "id": "the-birthday-massacre-walking-with-strangers",
+    "title": "Walking With Strangers",
+    "creator": "The Birthday Massacre",
+    "year": 2007,
+    "link": "https://open.spotify.com/album/4wK4A7mb7aEoykUajfWjZP",
+    "spotifyId": "4wK4A7mb7aEoykUajfWjZP",
+    "image": "https://hardrock80fr.files.wordpress.com/2021/10/the-birthday-massacre-walking-with-strangers.jpg?w=1200",
+    "imageFallbacks": [
+      "https://coverartarchive.org/release/d45d8173-0fd2-451c-aa0b-773d6515ae96/front-1200",
+      "https://coverartarchive.org/release/d45d8173-0fd2-451c-aa0b-773d6515ae96/front-500"
+    ]
+  },
+  {
+    "id": "weezer-white-album",
+    "title": "Weezer (White Album)",
+    "creator": "Weezer",
+    "year": 2016,
+    "link": "https://open.spotify.com/album/6StNTJJ7Yq3Hf121kLvPBz",
+    "spotifyId": "6StNTJJ7Yq3Hf121kLvPBz",
+    "image": "https://i.scdn.co/image/ab67616d0000b273962ce52e166e5e1dd7c2f4a3",
+    "imageFallbacks": [
+      "https://image-cdn-fa.spotifycdn.com/image/ab67616d0000b273962ce52e166e5e1dd7c2f4a3"
+    ]
+  }
+]

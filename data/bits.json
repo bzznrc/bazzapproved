@@ -7,7 +7,9 @@
     "link": "https://waitbutwhy.com/2014/05/fermi-paradox.html",
     "collectionId": "bits-wait-but-why",
     "collectionTitle": "Wait But Why",
-    "position": 1
+    "position": 1,
+    "image": "https://waitbutwhy.com/wp-content/uploads/2014/05/Great-Filter1.png",
+    "imageFit": "contain"
   },
   {
     "id": "why-procrastinators-procrastinate",
@@ -16,7 +18,9 @@
     "year": 2013,
     "link": "https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html",
     "collectionId": "bits-wait-but-why",
-    "position": 2
+    "position": 2,
+    "image": "https://www.ittakesbrains.com/Procrastinate/IGM_RDM_interacting_3.png",
+    "imageFit": "contain"
   },
   {
     "id": "the-tail-end",
@@ -25,7 +29,9 @@
     "year": 2015,
     "link": "https://waitbutwhy.com/2015/12/the-tail-end.html",
     "collectionId": "bits-wait-but-why",
-    "position": 3
+    "position": 3,
+    "image": "https://waitbutwhy.com/wp-content/uploads/2015/12/Winters.png",
+    "imageFit": "contain"
   },
   {
     "id": "religion-for-the-nonreligious",
@@ -34,7 +40,12 @@
     "year": 2014,
     "link": "https://waitbutwhy.com/2014/10/religion-for-the-nonreligious.html",
     "collectionId": "bits-wait-but-why",
-    "position": 4
+    "position": 4,
+    "image": "https://namelimitsuck.wordpress.com/wp-content/uploads/2016/07/big-staircase2.png?w=660",
+    "imageFit": "contain",
+    "imageFallbacks": [
+      "https://namelimitsuck.files.wordpress.com/2016/07/big-staircase2.png"
+    ]
   },
   {
     "id": "the-cook-and-the-chef-musk-s-secret-sauce",
@@ -43,7 +54,9 @@
     "year": 2015,
     "link": "https://waitbutwhy.com/2015/11/the-cook-and-the-chef-musks-secret-sauce.html",
     "collectionId": "bits-wait-but-why",
-    "position": 5
+    "position": 5,
+    "image": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1464901685i/30339278.jpg",
+    "imageFit": "contain"
   },
   {
     "id": "interplanetary-cessna",
@@ -53,7 +66,12 @@
     "link": "https://what-if.xkcd.com/30/",
     "collectionId": "bits-what-if",
     "collectionTitle": "What If?",
-    "position": 1
+    "position": 1,
+    "image": "https://what-if.xkcd.com/imgs/a/30/cessna_pilot.png",
+    "imageFit": "contain",
+    "imageFallbacks": [
+      "https://what-if.xkcd.com/imgs/a/30/cessna_plane.png"
+    ]
   },
   {
     "id": "drain-the-oceans",
@@ -62,7 +80,9 @@
     "year": 2013,
     "link": "https://what-if.xkcd.com/53/",
     "collectionId": "bits-what-if",
-    "position": 2
+    "position": 2,
+    "image": "https://what-if.xkcd.com/imgs/a/53/drain_500m.png",
+    "imageFit": "contain"
   },
   {
     "id": "a-mole-of-moles",
@@ -71,91 +91,135 @@
     "year": 2012,
     "link": "https://what-if.xkcd.com/4/",
     "collectionId": "bits-what-if",
-    "position": 3
+    "position": 3,
+    "image": "https://what-if.xkcd.com/imgs/a/4/moles_scale.png",
+    "imageFit": "contain",
+    "imageFallbacks": [
+      "https://what-if.xkcd.com/imgs/a/4/moles_layers.png"
+    ]
   },
   {
     "id": "this-is-water",
     "title": "This Is Water",
     "creator": "David Foster Wallace",
     "year": 2005,
-    "link": "https://www.kenyon.edu/news/archive/this-is-water/"
+    "link": "https://www.kenyon.edu/news/archive/this-is-water/",
+    "image": "https://media.newyorker.com/photos/69725187d17e6bfea491ebc9/1%3A1/w_1978%2Ch_1978%2Cc_limit/r48374.jpg",
+    "imageFit": "cover",
+    "imageFallbacks": [
+      "https://images.squarespace-cdn.com/content/v1/665de31bbdad603bc06db321/e9562902-c811-4d36-9d7c-d8f280badb0a/Ostow-DavidFosterWallace.jpg"
+    ]
   },
   {
     "id": "cargo-cult-science",
     "title": "Cargo Cult Science",
     "creator": "Richard Feynman",
     "year": 1974,
-    "link": "https://calteches.library.caltech.edu/3043/1/CargoCult.pdf"
+    "link": "https://calteches.library.caltech.edu/3043/1/CargoCult.pdf",
+    "image": "https://caltech-prod.resources.caltech.edu/main/images/feynman01-NEWS-WEB.original_AqOLTwJ.jpg?download=true",
+    "imageFit": "cover"
   },
   {
     "id": "you-and-your-research",
     "title": "You and Your Research",
     "creator": "Richard Hamming",
     "year": 1986,
-    "link": "https://www.cs.virginia.edu/~robins/YouAndYourResearch.html"
+    "link": "https://www.cs.virginia.edu/~robins/YouAndYourResearch.html",
+    "image": "https://images.ctfassets.net/spoqsaf9291f/4fA3UWgy3ZpV4psVBYQExu/8ab68abfd9d8366b24f19d9e4294084f/hamming2.png",
+    "imageFit": "cover"
   },
   {
     "id": "the-bus-ticket-theory-of-genius",
     "title": "The Bus Ticket Theory of Genius",
     "creator": "Paul Graham",
     "year": 2019,
-    "link": "https://www.paulgraham.com/genius.html"
+    "link": "https://www.paulgraham.com/genius.html",
+    "image": "https://media.wired.com/photos/66eca25ebd96d77025cfe11b/3%3A2/w_2560%2Cc_limit/Plaintext-Paul-Graham-Founder-Mode-Business-114681699.jpg",
+    "imageFit": "cover"
   },
   {
     "id": "a-conversation-with-dr-jordan-b-peterson",
     "title": "A Conversation with Dr. Jordan B. Peterson",
     "creator": "Vikas Shah · Jordan B. Peterson",
     "year": 2018,
-    "link": "https://www.jordanbpeterson.com/blog-posts/thoughteconomics/"
+    "link": "https://www.jordanbpeterson.com/blog-posts/thoughteconomics/",
+    "image": "https://yaffa-cdn.s3.amazonaws.com/yaffadsp/images/yafPhotoCompetitionEntry/imageHero/o_1go05sk7moe0fi4j6gkanek6s-JODRANPETERSON4.jpg",
+    "imageFit": "cover",
+    "imageFallbacks": [
+      "https://www.ralston.ac/assets/img/resized/person--large/p5z7gcee.jpeg"
+    ]
   },
   {
     "id": "the-myth-of-freedom",
     "title": "The Myth of Freedom",
     "creator": "Yuval Noah Harari",
     "year": 2018,
-    "link": "https://www.theguardian.com/books/2018/sep/14/yuval-noah-harari-the-new-threat-to-liberal-democracy"
+    "link": "https://www.theguardian.com/books/2018/sep/14/yuval-noah-harari-the-new-threat-to-liberal-democracy",
+    "image": "https://images.squarespace-cdn.com/content/v1/54b660dae4b07e9224ecf5c8/1730972054403-8NF9TKJGAZ7WRXAZUND5/Yuval%2BBW%2Bnew%2Bme%2Bweb.jpg?format=1500w",
+    "imageFit": "cover"
   },
   {
     "id": "why-some-researchers-think-i-m-wrong-about-social-media-and-mental-illness",
     "title": "Why Some Researchers Think I’m Wrong About Social Media and Mental Illness",
     "creator": "Jonathan Haidt",
     "year": 2024,
-    "link": "https://www.afterbabel.com/p/why-some-researchers-think-im-wrong"
+    "link": "https://www.afterbabel.com/p/why-some-researchers-think-im-wrong",
+    "image": "https://format.creatorcdn.com/a2953e73-0fb1-4fc7-a7ff-2e4d7b48949c/0/0/0/0%2C0%2C1080%2C1350%2C1200%2C1500/0-0-0/f41d377d-704b-48ca-9892-fbec5a6dd24c/1/2/1749720678338-1.jpg?fjkss=exp%3D2087693625~hmac%3D9e43b3c8ca544cc6f8e1ea7501cb678cd1b3e302a57b7ab19012c5bd1a64f3a9",
+    "imageFit": "cover",
+    "imageFallbacks": [
+      "https://ted-conferences-speaker-photos-production.s3.amazonaws.com/s10btaxorxpz94byz7iajjs89geu"
+    ]
   },
   {
     "id": "the-fable-of-the-dragon-tyrant",
     "title": "The Fable of the Dragon-Tyrant",
     "creator": "Nick Bostrom",
     "year": 2005,
-    "link": "https://nickbostrom.com/papers/the-fable-of-the-dragon-tyrant/"
+    "link": "https://nickbostrom.com/papers/the-fable-of-the-dragon-tyrant/",
+    "image": "https://media.wired.com/photos/5cd5eb5966ece94420b10b89/1%3A1/w_1800%2Ch_1800%2Cc_limit/business_nick-bostrom_-502680318.jpg",
+    "imageFit": "cover"
   },
   {
     "id": "1-000-true-fans",
     "title": "1,000 True Fans",
     "creator": "Kevin Kelly",
     "year": 2008,
-    "link": "https://kk.org/thetechnium/1000-true-fans/"
+    "link": "https://kk.org/thetechnium/1000-true-fans/",
+    "image": "https://heidicohen.com/wp-content/uploads/1_000_True_Fans_Chart_via_Kevin_Kelly_March_2008.jpg",
+    "imageFit": "contain"
   },
   {
     "id": "what-we-get-wrong-about-technology",
     "title": "What We Get Wrong About Technology",
     "creator": "Tim Harford",
     "year": 2017,
-    "link": "https://timharford.com/2017/08/what-we-get-wrong-about-technology/"
+    "link": "https://timharford.com/2017/08/what-we-get-wrong-about-technology/",
+    "image": "https://npr.brightspotcdn.com/dims4/default/84298ee/2147483647/strip/true/crop/1000x1311%2B0%2B0/resize/880x1154%21/quality/90/?url=https%3A%2F%2Fmedia.npr.org%2Fassets%2Fimg%2F2011%2F05%2F20%2Ftharford_custom-0388d171638c110e4e8fcfff478ee94605321954.jpg",
+    "imageFit": "cover"
   },
   {
     "id": "i-pencil",
     "title": "I, Pencil",
     "creator": "Leonard E. Read",
     "year": 1958,
-    "link": "https://fee.org/articles/i-pencil/"
+    "link": "https://fee.org/articles/i-pencil/",
+    "image": "https://images.squarespace-cdn.com/content/v1/65d4a908ad207c44f92d3c28/6e123d0b-db85-4c74-a7c9-7155d27b018e/Payne_General%2BPencil%2BCompany%2B56_Jersey%2BCity_NJ_2016_2017.jpg",
+    "imageFit": "cover",
+    "imageFallbacks": [
+      "https://images.squarespace-cdn.com/content/v1/65d4a908ad207c44f92d3c28/d98bb5b5-89fe-45fd-bda5-d85d7285be95/Payne_General%2BPencil%2BCompany%2B55_Jersey%2BCity_NJ_2016_2017.jpg"
+    ]
   },
   {
     "id": "how-to-build-a-20-billion-semiconductor-fab",
     "title": "How to Build a $20 Billion Semiconductor Fab",
     "creator": "Brian Potter",
     "year": 2021,
-    "link": "https://www.construction-physics.com/p/how-to-build-a-20-billion-semiconductor"
+    "link": "https://www.construction-physics.com/p/how-to-build-a-20-billion-semiconductor",
+    "image": "https://www.ct.nl/app/uploads/2025/06/ASML_TF_service_lab_wafer_close-up_007-1536x1010.jpg",
+    "imageFit": "cover",
+    "imageFallbacks": [
+      "https://cdn.neowin.com/news/images/uploaded/2021/04/1617723682_i3.jpg"
+    ]
   },
   {
     "id": "nuclear-power-and-secure-energy-transitions-executive-summary",
@@ -165,7 +229,13 @@
     "link": "https://www.iea.org/reports/nuclear-power-and-secure-energy-transitions/executive-summary",
     "collectionId": "bits-energy",
     "collectionTitle": "Energy",
-    "position": 1
+    "position": 1,
+    "image": "https://www.edf.fr/sites/groupe/files/styles/img_768x576/public/2025-07/EDF%20Saint-Laurent%20-%20Photos%20Richard%20LACOUR-35.jpg?itok=vbX1DXoI",
+    "imageFit": "cover",
+    "imageFallbacks": [
+      "https://www.edf.fr/sites/groupe/files/styles/img_768x576/public/2025-01/EDF%20Cattenom%20-%20Vue%20du%20site_0.jpg?itok=LQwaxXfp",
+      "https://www.pnc-france.org/wp-content/uploads/2021/06/Centrale-nucleaire-de-Golfech-1024x682.jpg"
+    ]
   },
   {
     "id": "what-are-the-safest-and-cleanest-sources-of-energy",
@@ -174,7 +244,9 @@
     "year": 2020,
     "link": "https://ourworldindata.org/safest-sources-of-energy",
     "collectionId": "bits-energy",
-    "position": 2
+    "position": 2,
+    "image": "https://cdn.orsted.com/-/media/www/images/corp/de/mediengalerie/bkr01/150222_bkr01_windfarm_02.jpg?rev=c1c970f019ee4c6aa2318069ab4fe004",
+    "imageFit": "cover"
   },
   {
     "id": "just-keep-buying",
@@ -184,7 +256,9 @@
     "link": "https://ofdollarsanddata.com/just-keep-buying/",
     "collectionId": "bits-investing",
     "collectionTitle": "Investing",
-    "position": 1
+    "position": 1,
+    "image": "https://cdn-images-3.listennotes.com/podcasts/infinite-loops/nick-maggiulli-climbing-the-Wx67v5f-UeS-GjOn5YJiacm.1080x1080.jpg",
+    "imageFit": "cover"
   },
   {
     "id": "even-god-couldn-t-beat-dollar-cost-averaging",
@@ -193,7 +267,12 @@
     "year": 2019,
     "link": "https://ofdollarsanddata.com/even-god-couldnt-beat-dollar-cost-averaging/",
     "collectionId": "bits-investing",
-    "position": 2
+    "position": 2,
+    "image": "https://cdn.sanity.io/images/bl383u0v/production/958378e117290f045aa74c839af75d012e43f0e8-1500x1000.jpg",
+    "imageFit": "cover",
+    "imageFallbacks": [
+      "https://cdn-images-3.listennotes.com/podcasts/infinite-loops/nick-maggiulli-climbing-the-Wx67v5f-UeS-GjOn5YJiacm.1080x1080.jpg"
+    ]
   },
   {
     "id": "the-psychology-of-money",
@@ -202,12 +281,21 @@
     "year": 2018,
     "link": "https://collabfund.com/blog/the-psychology-of-money/",
     "collectionId": "bits-investing",
-    "position": 3
+    "position": 3,
+    "image": "https://readwise-assets.s3.amazonaws.com/media/wisereads/articles/collab-fund/cover_image_0xC9M1H.jpeg",
+    "imageFit": "cover"
   },
   {
     "id": "gerontonomia",
     "title": "Gerontonomia",
     "creator": "Tim Vlandas",
-    "link": "https://gerontonomia.com/"
+    "link": "https://gerontonomia.com/",
+    "image": "https://images.handelsblatt.com/66N7v-0qXXs5/cover/1365/1365/342/341/0/0/0.5/0.5/finanzmaerkte-in-japan.jpeg",
+    "imageFit": "cover",
+    "year": 2026,
+    "imageFallbacks": [
+      "https://images.squarespace-cdn.com/content/v1/57b467429f74568e1b9fb81a/1505499060798-03IQZ60UUOLUMNKVQYRM/L1001665.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_DruebKir980SLX0UYGiFDvpWe8RibvOgMSLGksdenw&s=10"
+    ]
   }
 ]

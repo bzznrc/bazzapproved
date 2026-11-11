@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f8f7f3">
-  <meta name="description" content="A personal collection of books, movies, games, and things worth reading.">
+  <meta name="description" content="A personal collection of books, movies, games, music, and things worth reading.">
   <title>Books | My collection</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23f8f7f3'/%3E%3Cpath d='M18 13h28v38H18z' fill='%23545f4c'/%3E%3Cpath d='M23 13v38M29 23h11M29 29h8' stroke='%23f8f7f3' stroke-width='2'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="css/styles.css">
@@ -17,13 +17,19 @@
       <a data-area="books" href="#books">Books</a>
       <a data-area="movies" href="#movies">Movies</a>
       <a data-area="games" href="#games">Games</a>
+      <a data-area="music" href="#music">Music</a>
       <a data-area="bits" href="#bits">Bits</a>
     </nav>
     <main id="main" tabindex="-1">
       <div class="intro">
         <div class="intro-heading">
           <h1 id="area-title">Books</h1>
-          <span class="count-badge" id="count" role="status">Loading…</span>
+          <div class="count-controls">
+            <span class="count-badge" id="count" role="status">Loading…</span>
+            <button class="sort-toggle" id="sort-toggle" type="button" aria-label="Show oldest first" aria-pressed="false" title="Newest first · click for oldest first" disabled>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6"/></svg>
+            </button>
+          </div>
         </div>
       </div>
       <div id="content" aria-busy="true"></div>

@@ -31,14 +31,16 @@
     "title": "Brief Answers to the Big Questions",
     "creator": "Stephen W. Hawking",
     "year": 2018,
-    "isbn": "9781984819192"
+    "isbn": "9781984819192",
+    "image": "https://images-us.bookshop.org/ingram/9781984819192.jpg?v=53d5eba31ebbb41c206fd65ec0123390"
   },
   {
     "id": "questa-e-l-america-storie-per-capire-il-presente-degli-stati-uniti-e-il-nostro-futuro",
     "title": "Questa è l'America: Storie per capire il presente degli Stati Uniti e il nostro futuro",
     "creator": "Francesco Costa",
     "year": 2020,
-    "isbn": "8804722460"
+    "isbn": "8804722460",
+    "image": "https://www.ibs.it/images/9788804722465_0_0_0_0_0.jpg"
   },
   {
     "id": "shoe-dog-a-memoir-by-the-creator-of-nike",
@@ -256,27 +258,30 @@
     "id": "l-avvocato-dell-atomo-in-difesa-dell-energia-nucleare",
     "title": "L'avvocato dell'atomo. In difesa dell'energia nucleare",
     "creator": "Luca Romano",
-    "year": 2020,
-    "isbn": "9791259672148"
+    "year": 2022,
+    "isbn": "9791259672148",
+    "image": "https://m.media-amazon.com/images/I/61TrtunBZFL.jpg"
   },
   {
     "id": "m-il-figlio-del-secolo",
     "title": "M. Il figlio del secolo",
     "creator": "Antonio Scurati",
     "year": 2018,
-    "isbn": "8845298132",
+    "isbn": "9788845298134",
     "collectionId": "books-m",
     "collectionTitle": "M.",
-    "position": 1
+    "position": 1,
+    "image": "https://cdn.kobo.com/book-images/2263b175-c200-472d-a541-689efb66e9db/1200/1200/False/m-il-figlio-del-secolo.jpg"
   },
   {
     "id": "m-l-uomo-della-provvidenza",
     "title": "M. L'uomo della provvidenza",
     "creator": "Antonio Scurati",
     "year": 2020,
-    "isbn": "8830102652",
+    "isbn": "9788830102651",
     "collectionId": "books-m",
-    "position": 2
+    "position": 2,
+    "image": "https://www.ibs.it/images/9788830102651_0_0_0_0_0.jpg"
   },
   {
     "id": "steve-jobs",
@@ -292,14 +297,21 @@
     "year": 2022,
     "isbn": "9788830104969",
     "collectionId": "books-m",
-    "position": 3
+    "position": 3,
+    "image": "https://dbtitoli.giunti.it/api/media/image/getImage?cm=B0642A&type=P"
   },
   {
     "id": "novecento-un-monologo",
     "title": "Novecento. Un monologo",
     "creator": "Alessandro Baricco",
     "year": 1994,
-    "isbn": "8807813025"
+    "isbn": "8807813025",
+    "image": "https://cdn.kobo.com/book-images/207356ad-49a5-47f6-825f-2378d91375c4/1200/1920/90/False/novecento-6.jpg",
+    "imageFallbacks": [
+      "https://www.feltrinellieditore.it/media/filer_public/48/e7/48e7a588-573c-455d-b08e-de32e0db6080/novecento.jpg",
+      "https://www.lafeltrinelli.it/images/9788807813023_189911357_0_0_0_75.jpg",
+      "https://www.dopara.it/cdn/shop/products/novecento-alessandro-baricco-1.jpg?v=1674315033&width=1946"
+    ]
   },
   {
     "id": "what-if-2-additional-serious-scientific-answers-to-absurd-hypothetical-questions-what-if-2",
@@ -350,7 +362,8 @@
     "title": "Sergio Marchionne",
     "creator": "Tommaso Ebhardt",
     "year": 2019,
-    "isbn": "9788855440639"
+    "isbn": "9788855440639",
+    "image": "https://www.itacalibri.it/System/203897/9788820078362_Sergio%20Marchionne.%20Nuova%20edizione%20aggiornata-5.jpg"
   },
   {
     "id": "chip-war-the-fight-for-the-world-s-most-critical-technology",
@@ -397,7 +410,8 @@
     "year": 2024,
     "isbn": "9788830104976",
     "collectionId": "books-m",
-    "position": 4
+    "position": 4,
+    "image": "https://dbtitoli.giunti.it/api/media/image/getImage?cm=B09419&type=P"
   },
   {
     "id": "the-worlds-i-see-curiosity-exploration-and-discovery-at-the-dawn-of-ai",
@@ -459,8 +473,9 @@
     "id": "come-se-ne-esce-il-mondo-dopo-donald-trump",
     "title": "Come se ne esce: Il mondo dopo Donald Trump",
     "creator": "Francesco Costa",
-    "year": 2025,
-    "isbn": "9788804776895"
+    "year": 2026,
+    "isbn": "9788804776895",
+    "image": "https://www.ibs.it/images/9788804776895_0_0_0_0_0.jpg"
   },
   {
     "id": "trade-world",
@@ -469,6 +484,17 @@
     "year": 2026,
     "isbn": "9780753562277",
     "collectionId": "books-ed-conway",
-    "position": 2
+    "position": 2,
+    "image": "https://cdn.penguin.co.uk/dam-assets/books/9780753562277/9780753562277-jacket-large.jpg"
+  },
+  {
+    "id": "m-la-fine-e-il-principio",
+    "title": "M. La fine e il principio",
+    "creator": "Antonio Scurati",
+    "year": 2025,
+    "isbn": "9788830106987",
+    "collectionId": "books-m",
+    "position": 5,
+    "image": "https://dbtitoli.giunti.it/api/media/image/getImage?cm=B0259A&type=P"
   }
 ]

@@ -3,7 +3,8 @@
     "id": "fable",
     "title": "Fable",
     "year": 2004,
-    "image": "https://storage.googleapis.com/images.pricecharting.com/17059de24f86569f4c6ae7b525b977d77ac93d219c3c349f92162756ef5c32d7/1600.jpg"
+    "image": "https://storage.googleapis.com/images.pricecharting.com/17059de24f86569f4c6ae7b525b977d77ac93d219c3c349f92162756ef5c32d7/1600.jpg",
+    "igdbCoverId": "co2q4c"
   },
   {
     "id": "halo-combat-evolved",
@@ -13,7 +14,8 @@
     "collectionTitle": "Halo",
     "position": 1,
     "image": "https://www.powerupgaming.ca/cdn/shop/products/9494-halo-combat-evolved-xbox-front-cover.jpg?v=1729808110",
-    "portraitImage": "https://images.igdb.com/igdb/image/upload/t_original/co2r2r.jpg"
+    "portraitImage": "https://images.igdb.com/igdb/image/upload/t_original/co2r2r.jpg",
+    "igdbCoverId": "co2r2r"
   },
   {
     "id": "halo-2",
@@ -22,7 +24,8 @@
     "collectionId": "games-halo",
     "position": 2,
     "image": "https://images.purexbox.com/48eaf8d401e50/halo-2-cover.cover_300x.jpg",
-    "portraitImage": "https://images.igdb.com/igdb/image/upload/t_original/co1x77.jpg"
+    "portraitImage": "https://images.igdb.com/igdb/image/upload/t_original/co1x77.jpg",
+    "igdbCoverId": "co1x77"
   },
   {
     "id": "halo-3",
@@ -31,7 +34,8 @@
     "collectionId": "games-halo",
     "position": 3,
     "image": "https://images.purexbox.com/35be3a5a262a5/halo-3-cover.cover_300x.jpg",
-    "portraitImage": "https://images.igdb.com/igdb/image/upload/t_original/co1xhc.jpg"
+    "portraitImage": "https://images.igdb.com/igdb/image/upload/t_original/co1xhc.jpg",
+    "igdbCoverId": "co1xhc"
   },
   {
     "id": "halo-reach",
@@ -40,7 +44,8 @@
     "collectionId": "games-halo",
     "position": 4,
     "image": "https://images.purexbox.com/702875e257281/halo-reach-cover.cover_300x.jpg",
-    "portraitImage": "https://images.igdb.com/igdb/image/upload/t_original/co1xha.jpg"
+    "portraitImage": "https://images.igdb.com/igdb/image/upload/t_original/co1xha.jpg",
+    "igdbCoverId": "co1xha"
   },
   {
     "id": "halo-infinite",
@@ -48,13 +53,16 @@
     "year": 2021,
     "collectionId": "games-halo",
     "position": 5,
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1240440/5c09b42d3b89901b78c322bb366bb34a1123f468/library_capsule.jpg"
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1240440/5c09b42d3b89901b78c322bb366bb34a1123f468/library_capsule.jpg",
+    "igdbCoverId": "co2dto",
+    "steamId": 1240440
   },
   {
     "id": "it-takes-two",
     "title": "It Takes Two",
     "year": 2021,
-    "steamId": 1426210
+    "steamId": 1426210,
+    "igdbCoverId": "cob22v"
   },
   {
     "id": "battlefield-1",
@@ -63,13 +71,16 @@
     "steamId": 1238840,
     "collectionId": "games-battlefield",
     "collectionTitle": "Battlefield",
-    "position": 3
+    "position": 3,
+    "igdbCoverId": "co2n9d"
   },
   {
     "id": "helldivers-2",
     "title": "Helldivers 2",
     "year": 2024,
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/553850/a79b4d13ce2b1e1379116085b4f97b45c14548ab/library_capsule.jpg"
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/553850/a79b4d13ce2b1e1379116085b4f97b45c14548ab/library_capsule.jpg",
+    "igdbCoverId": "coabbf",
+    "steamId": 553850
   },
   {
     "id": "astros-playroom",
@@ -78,7 +89,8 @@
     "image": "https://images.pushsquare.com/78e5d5ea9cba7/astros-playroom-cover.cover_large.jpg",
     "collectionId": "games-astro",
     "collectionTitle": "Astro",
-    "position": 1
+    "position": 1,
+    "igdbCoverId": "co9hb4"
   },
   {
     "id": "astro-bot",
@@ -86,7 +98,8 @@
     "year": 2024,
     "image": "https://images.pushsquare.com/ca681ce6fc874/astro-bot-cover.cover_300x.jpg",
     "collectionId": "games-astro",
-    "position": 2
+    "position": 2,
+    "igdbCoverId": "coba3k"
   },
   {
     "id": "god-of-war-2018",
@@ -95,7 +108,8 @@
     "steamId": 1593500,
     "collectionId": "games-god-of-war",
     "position": 1,
-    "collectionTitle": "God of War"
+    "collectionTitle": "God of War",
+    "igdbCoverId": "cobkt6"
   },
   {
     "id": "the-last-of-us",
@@ -104,7 +118,8 @@
     "steamId": 1888930,
     "collectionId": "games-the-last-of-us",
     "collectionTitle": "The Last of Us",
-    "position": 1
+    "position": 1,
+    "igdbCoverId": "co1r7f"
   },
   {
     "id": "the-last-of-us-part-ii",
@@ -112,13 +127,16 @@
     "year": 2020,
     "collectionId": "games-the-last-of-us",
     "position": 2,
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2531310/aeac394b61ac94b5d4ea939351baf3943ac0b282/library_600x900.jpg"
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2531310/aeac394b61ac94b5d4ea939351baf3943ac0b282/library_600x900.jpg",
+    "igdbCoverId": "co5ziw",
+    "steamId": 2531310
   },
   {
     "id": "ratchet-clank-rift-apart",
     "title": "Ratchet & Clank: Rift Apart",
     "year": 2021,
-    "steamId": 1895880
+    "steamId": 1895880,
+    "igdbCoverId": "co2str"
   },
   {
     "id": "ghost-of-tsushima",
@@ -127,7 +145,8 @@
     "steamId": 2215430,
     "collectionId": "games-ghost",
     "collectionTitle": "Ghost",
-    "position": 1
+    "position": 1,
+    "igdbCoverId": "co2crj"
   },
   {
     "id": "ghost-of-yotei",
@@ -135,7 +154,8 @@
     "year": 2025,
     "image": "https://images.pushsquare.com/69286d1e1f950/ghost-of-yotei-cover.cover_300x.jpg",
     "collectionId": "games-ghost",
-    "position": 2
+    "position": 2,
+    "igdbCoverId": "co9coo"
   },
   {
     "id": "hades",
@@ -144,7 +164,8 @@
     "steamId": 1145360,
     "collectionId": "games-hades",
     "collectionTitle": "Hades",
-    "position": 1
+    "position": 1,
+    "igdbCoverId": "co4rs3"
   },
   {
     "id": "hades-ii",
@@ -152,25 +173,30 @@
     "year": 2025,
     "collectionId": "games-hades",
     "position": 2,
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145350/2ba105370a00877459144db0dd68af5f2d338429/library_capsule.jpg"
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1145350/2ba105370a00877459144db0dd68af5f2d338429/library_capsule.jpg",
+    "igdbCoverId": "coaknx",
+    "steamId": 1145350
   },
   {
     "id": "brotato",
     "title": "Brotato",
     "year": 2021,
-    "steamId": 1942280
+    "steamId": 1942280,
+    "igdbCoverId": "coaauv"
   },
   {
     "id": "a-short-hike",
     "title": "A Short Hike",
     "year": 2019,
-    "steamId": 1055540
+    "steamId": 1055540,
+    "igdbCoverId": "co6e83"
   },
   {
     "id": "the-binding-of-isaac",
     "title": "The Binding of Isaac",
     "year": 2011,
-    "steamId": 113200
+    "steamId": 113200,
+    "igdbCoverId": "co1qll"
   },
   {
     "id": "slay-the-spire",
@@ -179,7 +205,8 @@
     "steamId": 646570,
     "collectionId": "games-slay-the-spire",
     "collectionTitle": "Slay the Spire",
-    "position": 1
+    "position": 1,
+    "igdbCoverId": "co1iyf"
   },
   {
     "id": "slay-the-spire-2",
@@ -187,7 +214,9 @@
     "year": 2026,
     "collectionId": "games-slay-the-spire",
     "position": 2,
-    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2868840/4bf4dad2c9c82b1989eee4a664ca7ce7bf3cc4a7/library_600x900.jpg"
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2868840/4bf4dad2c9c82b1989eee4a664ca7ce7bf3cc4a7/library_600x900.jpg",
+    "steamId": 2868840,
+    "igdbCoverId": "cocle0"
   },
   {
     "id": "super-mario-galaxy",
@@ -196,7 +225,8 @@
     "image": "https://images.nintendolife.com/games/wii/super_mario_galaxy/cover_large.jpg",
     "collectionId": "games-super-mario-3d",
     "collectionTitle": "Super Mario 3D",
-    "position": 1
+    "position": 1,
+    "igdbCoverId": "co21ro"
   },
   {
     "id": "super-mario-galaxy-2",
@@ -204,7 +234,8 @@
     "year": 2010,
     "image": "https://images.nintendolife.com/games/wii/super_mario_galaxy_2/cover_large.jpg",
     "collectionId": "games-super-mario-3d",
-    "position": 2
+    "position": 2,
+    "igdbCoverId": "co21tl"
   },
   {
     "id": "super-mario-odyssey",
@@ -212,7 +243,8 @@
     "year": 2017,
     "image": "https://images.nintendolife.com/79d7d24eda071/super-mario-odyssey-cover.cover_300x.jpg",
     "collectionId": "games-super-mario-3d",
-    "position": 3
+    "position": 3,
+    "igdbCoverId": "co1mxf"
   },
   {
     "id": "the-legend-of-zelda-breath-of-the-wild",
@@ -221,7 +253,8 @@
     "image": "https://images.nintendolife.com/15a20bc6c7642/legend-of-zelda-breath-of-the-wild-cover.cover_300x.jpg",
     "collectionId": "games-the-legend-of-zelda",
     "collectionTitle": "The Legend of Zelda",
-    "position": 1
+    "position": 1,
+    "igdbCoverId": "co3p2d"
   },
   {
     "id": "the-legend-of-zelda-tears-of-the-kingdom",
@@ -229,73 +262,85 @@
     "year": 2023,
     "image": "https://images.nintendolife.com/3c28307f2fe0a/legend-of-zelda-tears-of-the-kingdom-cover.cover_300x.jpg",
     "collectionId": "games-the-legend-of-zelda",
-    "position": 2
+    "position": 2,
+    "igdbCoverId": "co5vmg"
   },
   {
     "id": "super-mario-bros-wonder",
     "title": "Super Mario Bros. Wonder",
     "year": 2023,
-    "image": "https://images.nintendolife.com/aaa017bb4e5cc/super-mario-bros-wonder-cover.cover_300x.jpg"
+    "image": "https://images.nintendolife.com/aaa017bb4e5cc/super-mario-bros-wonder-cover.cover_300x.jpg",
+    "igdbCoverId": "co6nnl"
   },
   {
     "id": "mario-kart-world",
     "title": "Mario Kart World",
     "year": 2025,
-    "image": "https://images.nintendolife.com/179b5a8ddb955/mario-kart-world-cover.cover_300x.jpg"
+    "image": "https://images.nintendolife.com/179b5a8ddb955/mario-kart-world-cover.cover_300x.jpg",
+    "igdbCoverId": "cob9s9"
   },
   {
     "id": "dave-the-diver",
     "title": "Dave the Diver",
     "year": 2022,
-    "steamId": 1868140
+    "steamId": 1868140,
+    "igdbCoverId": "cocdlv"
   },
   {
     "id": "turnip-boy-commits-tax-evasion",
     "title": "Turnip Boy Commits Tax Evasion",
     "year": 2021,
-    "steamId": 1205450
+    "steamId": 1205450,
+    "igdbCoverId": "co4kc1"
   },
   {
     "id": "ni-no-kuni-wrath-of-the-white-witch",
     "title": "Ni no Kuni: Wrath of the White Witch",
     "year": 2011,
-    "steamId": 798460
+    "steamId": 798460,
+    "igdbCoverId": "co1rbw"
   },
   {
     "id": "superhot",
     "title": "SUPERHOT",
     "year": 2016,
-    "steamId": 322500
+    "steamId": 322500,
+    "igdbCoverId": "co7ybp"
   },
   {
     "id": "cocoon",
     "title": "COCOON",
     "year": 2023,
-    "steamId": 1497440
+    "steamId": 1497440,
+    "igdbCoverId": "co4v2z"
   },
   {
     "id": "castle-crashers",
     "title": "Castle Crashers",
     "year": 2008,
-    "steamId": 204360
+    "steamId": 204360,
+    "igdbCoverId": "coaskv"
   },
   {
     "id": "lego-racers",
     "title": "LEGO Racers",
     "year": 1999,
-    "image": "https://www.lego.com/cdn/cs/set/assets/blt4e24f31ddda9241c/lego_racers_cover.jpeg?width=700&format=jpg"
+    "image": "https://www.lego.com/cdn/cs/set/assets/blt4e24f31ddda9241c/lego_racers_cover.jpeg?width=700&format=jpg",
+    "igdbCoverId": "co6xs1"
   },
   {
     "id": "warcraft-iii-reign-of-chaos",
     "title": "Warcraft III: Reign of Chaos",
     "year": 2002,
-    "image": "https://media.vandal.net/m/960/warcraft-3-201610722230_1.jpg"
+    "image": "https://media.vandal.net/m/960/warcraft-3-201610722230_1.jpg",
+    "igdbCoverId": "co1xuq"
   },
   {
     "id": "grand-theft-auto-2",
     "title": "Grand Theft Auto 2",
     "year": 1999,
-    "image": "https://www.mobygames.com/images/covers/l/145594-grand-theft-auto-2-windows-front-cover.jpg"
+    "image": "https://www.mobygames.com/images/covers/l/145594-grand-theft-auto-2-windows-front-cover.jpg",
+    "igdbCoverId": "co2lb2"
   },
   {
     "id": "bioshock",
@@ -304,7 +349,8 @@
     "steamId": 7670,
     "collectionId": "games-bioshock",
     "collectionTitle": "BioShock",
-    "position": 1
+    "position": 1,
+    "igdbCoverId": "co2mli"
   },
   {
     "id": "bioshock-infinite",
@@ -312,37 +358,43 @@
     "year": 2013,
     "steamId": 8870,
     "collectionId": "games-bioshock",
-    "position": 2
+    "position": 2,
+    "igdbCoverId": "co2n12"
   },
   {
     "id": "dead-rising",
     "title": "Dead Rising",
     "year": 2006,
-    "steamId": 427190
+    "steamId": 427190,
+    "igdbCoverId": "co20xf"
   },
   {
     "id": "geometry-wars-retro-evolved-2",
     "title": "Geometry Wars: Retro Evolved 2",
     "year": 2008,
-    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1uck.jpg"
+    "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1uck.jpg",
+    "igdbCoverId": "coawbf"
   },
   {
     "id": "plants-vs-zombies",
     "title": "Plants vs. Zombies",
     "year": 2009,
-    "steamId": 3590
+    "steamId": 3590,
+    "igdbCoverId": "co69id"
   },
   {
     "id": "world-of-goo",
     "title": "World of Goo",
     "year": 2008,
-    "steamId": 22000
+    "steamId": 22000,
+    "igdbCoverId": "co24jz"
   },
   {
     "id": "control",
     "title": "Control",
     "year": 2019,
-    "steamId": 870780
+    "steamId": 870780,
+    "igdbCoverId": "co2evj"
   },
   {
     "id": "littlebigplanet",
@@ -351,7 +403,8 @@
     "image": "https://assets-prd.ignimgs.com/2022/01/07/littlebigplanet-1-button-crop-1641596100455.jpg",
     "collectionId": "games-littlebigplanet",
     "collectionTitle": "LittleBigPlanet & Sackboy",
-    "position": 1
+    "position": 1,
+    "igdbCoverId": "co4p0f"
   },
   {
     "id": "littlebigplanet-2",
@@ -359,7 +412,8 @@
     "year": 2011,
     "image": "https://i.gadgets360cdn.com/products/large/littlebigplanet-2-button-badcrop-1641596192693-1000x1000-1658124036.jpg",
     "collectionId": "games-littlebigplanet",
-    "position": 2
+    "position": 2,
+    "igdbCoverId": "co2ijw"
   },
   {
     "id": "littlebigplanet-3",
@@ -367,15 +421,20 @@
     "year": 2014,
     "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co3t1c.jpg",
     "collectionId": "games-littlebigplanet",
-    "position": 3
+    "position": 3,
+    "igdbCoverId": "co3t1c"
   },
   {
     "id": "sackboy-a-big-adventure",
     "title": "Sackboy: A Big Adventure",
     "year": 2020,
-    "image": "https://fanatical.imgix.net/product/original/e711a171-0ab4-4e2c-b865-59a2b043f8a0.jpeg?auto=compress",
     "collectionId": "games-littlebigplanet",
-    "position": 4
+    "position": 4,
+    "igdbCoverId": "co4522",
+    "steamId": 1599660,
+    "imageFallbacks": [
+      "https://fanatical.imgix.net/product/original/e711a171-0ab4-4e2c-b865-59a2b043f8a0.jpeg?auto=compress"
+    ]
   },
   {
     "id": "battlefield-bad-company",
@@ -383,7 +442,8 @@
     "year": 2008,
     "image": "https://images.igdb.com/igdb/image/upload/t_cover_big_2x/co1xbe.jpg",
     "collectionId": "games-battlefield",
-    "position": 1
+    "position": 1,
+    "igdbCoverId": "co1xbe"
   },
   {
     "id": "battlefield-3",
@@ -391,7 +451,8 @@
     "year": 2011,
     "steamId": 1238820,
     "collectionId": "games-battlefield",
-    "position": 2
+    "position": 2,
+    "igdbCoverId": "co1xbu"
   },
   {
     "id": "god-of-war-ragnarok",
@@ -399,6 +460,7 @@
     "year": 2022,
     "steamId": 2322010,
     "collectionId": "games-god-of-war",
-    "position": 2
+    "position": 2,
+    "igdbCoverId": "coba3d"
   }
 ]
